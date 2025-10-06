@@ -1,0 +1,279 @@
+/* Reset and basic */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* subtle drop shadow under header */
+  background-color: #fff; /* ensures header stays opaque */
+
+}
+
+.nav-left a, .nav-right a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  max-width: 140px;        /* limit width */
+  word-wrap: break-word;    /* allow wrapping */
+  text-align: center;       /* center text in menu */
+  display: inline-block;    /* needed for max-width to apply */
+  transition: 0.3s;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+  color: #ff00ff; /* Neon magenta accent for hover on white background */
+}
+
+.logo {
+  font-size: 5.5rem;
+  color: #000; 
+  text-align: center;
+  white-space: nowrap;
+}
+
+.logo-one {
+  color: #ff0066; /* Bright neon color for the 1 */
+}
+
+
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: #0ff;
+  cursor: pointer;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 150px; /* space for fixed header */
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3rem;          /* large size for visibility */
+  text-align: center;        /* center horizontally */
+  color: #000;               /* black text */
+  text-shadow: 
+      2px 2px 0 #555,       /* dark shadow for embossed effect */
+      -1px -1px 0 #fff,     /* subtle highlight */
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+  margin: 50px 20px;         /* space above and below */
+  padding: 20px;             /* extra padding inside heading */
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px; /* space between boxes */
+  flex-wrap: wrap; /* stack on mobile */
+  margin: 50px 10px;
+}
+
+.boxes-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px; /* space between boxes */
+  flex-wrap: wrap; /* stack on mobile */
+  margin: 50px 10px;
+}
+
+.boxes-container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px; /* space between boxes */
+  flex-wrap: wrap; /* stack on mobile */
+  margin: 50px 10px;
+}
+
+
+
+
+/* Individual content box */
+.content-box {
+  background-color: #333333;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px; /* fixed width for desktop */
+  text-align: center;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.6), -4px -4px 8px rgba(255,255,255,0.2);
+}
+
+.content-box-2 {
+  background-color: #333333;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px; /* fixed width for desktop */
+  text-align: center;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.6), -4px -4px 8px rgba(255,255,255,0.2);
+}
+
+.content-box-3 {
+  background-color: #333333;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px; /* fixed width for desktop */
+  text-align: center;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.6), -4px -4px 8px rgba(255,255,255,0.2);
+}
+
+/* Box heading */
+.content-box h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.content-box-2 h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.content-box-3 h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+
+.image-placeholder {
+  width: 100%;
+  height: 180px; /* adjust this to match your desired image area */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* fallback if image missing */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Box paragraph */
+.content-box p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.content-box-2 p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.content-box-3 p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.highlight {
+  color: #ff0066; /* bright magenta to match logo */
+  letter-spacing: 1px;
+}
+
+/* Emphasize key words inside paragraphs */
+p strong {
+  color: #000;
+  background-color: #ffea00; /* subtle yellow highlight */
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+/* "Let's fix it!" emphasis */
+.fix-it {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #0ff; /* neon cyan accent */
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+  .nav-left, .nav-right {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .logo {
+  font-size: 2.5rem;
+  color: #000; /* Web and Team are black */
+  text-align: center;
+  white-space: nowrap;
+}
+
+.logo-one {
+  color: #ff0066; /* Bright neon color for the 1 */
+}
+				
+/* Responsive: stack vertically on small screens */
+@media screen and (max-width: 768px) {
+  .boxes-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .content-box {
+    width: 90%;
+  }  
+
+}

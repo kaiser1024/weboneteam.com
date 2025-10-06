@@ -1,0 +1,140 @@
+/* Reset and basic */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #fff; /* Changed to white */
+  color: #000; /* Default text color black for readability */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  z-index: 100;
+}
+
+.nav-left a, .nav-right a {
+  color: #000; /* Neon cyan accent */
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+  color: #ff00ff; /* Neon magenta accent for hover on white background */
+}
+
+.logo {
+  font-size: 5.5rem;
+  color: #000; 
+  text-align: center;
+  white-space: nowrap;
+}
+
+.logo-one {
+  color: #ff0066; /* Bright neon color for the 1 */
+}
+
+
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: #0ff;
+  cursor: pointer;
+}
+
+/* Language chooser box */
+.language-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333; /* dark gray background */
+  padding: 50px 80px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  text-align: center;
+
+  /* Embossed effect */
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.6), /* dark shadow bottom-right */
+              -4px -4px 8px rgba(255,255,255,0.2); /* subtle highlight top-left */
+}
+
+.language-box h1 {
+  font-size: 2rem;
+  color: #ff0066; /* neon magenta for title */
+  margin-bottom: 30px;
+}
+
+.languages a {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff; /* white text */
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.languages a:hover {
+  color: #ff00ff; /* neon magenta on hover */
+  border-bottom: 2px solid #ff00ff;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+  .nav-left, .nav-right {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .logo {
+  font-size: 2.5rem;
+  color: #000; /* Web and Team are black */
+  text-align: center;
+  white-space: nowrap;
+}
+
+.logo-one {
+  color: #ff0066; /* Bright neon color for the 1 */
+}
+
+  .language-box {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .language-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .languages a {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.3rem;
+  }
+}
