@@ -15,3 +15,11 @@ header {
 }
 
 
+nav {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+}
+
+
