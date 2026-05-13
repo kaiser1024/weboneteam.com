@@ -9,3 +9,9 @@ header {
   align-items: center;
 }
 
+
+.logo {
+  flex: 0 0 auto;
+}
+
+
