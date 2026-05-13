@@ -3,5 +3,7 @@ header {
   position: sticky;
   top: 0;
   padding: clamp(12px, 2vw, 24px);
+
+  display: flex;
 }
 
