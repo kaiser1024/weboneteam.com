@@ -36,7 +36,18 @@ nav {
   align-items: center;
 
   flex: 1;
+  
+  position: relative; /* ✅ required */
+
 }
+
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
 
 
 .menu {
@@ -44,7 +55,7 @@ nav {
 }
 
 
-dropdown {
+лdropdown {
   display: none;
   position: absolute;
   top: 100%;
