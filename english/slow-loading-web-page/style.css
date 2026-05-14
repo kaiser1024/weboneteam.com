@@ -5,6 +5,16 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Inter", sans-serif;
+}
+
+
 header {
   position: sticky;
   top: 0;
