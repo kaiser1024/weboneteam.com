@@ -32,3 +32,23 @@
       
     </footer>
   </body>
+
+  <script>
+
+const navItems = document.querySelector(".nav-items");
+const items = Array.from(navItems.children);
+const menu = document.querySelector(".menu");
+const dropdown = document.querySelector(".dropdown");
+
+    
+window.addEventListener("load", updateNav);
+window.addEventListener("resize", updateNav);
+
+    
+menu.addEventListener("click", () => {
+  nav.classList.toggle("open");
+});
+
+
+
+  </script>
