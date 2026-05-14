@@ -35,20 +35,56 @@
 
   <script>
 
+const nav = document.querySelector(".nav");
 const navItems = document.querySelector(".nav-items");
 const items = Array.from(navItems.children);
 const menu = document.querySelector(".menu");
 const dropdown = document.querySelector(".dropdown");
 
-    
+function updateNav() {
+  // reset
+  dropdown.innerHTML = "";
+  navItems.innerHTML = "";
+
+  // restore all items
+  items.forEach(item => navItems.appendChild(item));
+
+  menu.style.display = "none";
+
+  let availableWidth = nav.clientWidth;
+  let usedWidth = 0;
+
+  const visibleItems = [];
+
+  for (let item of items) {
+    navItems.appendChild(item);
+    usedWidth += item.offsetWidth;
+
+    if (usedWidth > availableWidth - menu.offsetWidth) {
+      break;
+    }
+
+    visibleItems.push(item);
+  }
+
+  const overflowItems = items.slice(visibleItems.length);
+
+  if (overflowItems.length > 0) {
+    menu.style.display = "flex";
+
+    overflowItems.forEach(item => {
+      navItems.removeChild(item);
+      dropdown.appendChild(item);
+    });
+  }
+}
+
 window.addEventListener("load", updateNav);
 window.addEventListener("resize", updateNav);
 
-    
 menu.addEventListener("click", () => {
   nav.classList.toggle("open");
 });
-
 
 
   </script>
