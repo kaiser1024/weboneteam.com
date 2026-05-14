@@ -44,6 +44,26 @@ nav {
 }
 
 
+dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  flex-direction: column;
+}
+
+
+.dropdown a {
+  padding: 10px;
+}
+
+
+nav.open .dropdown {
+  display: flex;
+}
+
 .menu span {
   display: block;
   height: 3px;
