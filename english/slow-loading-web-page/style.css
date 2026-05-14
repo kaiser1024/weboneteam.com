@@ -39,3 +39,31 @@ nav {
 }
 
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.menu span {
+  display: block;
+  height: 3px;
+  background: black;
+  width: 100%;
+}
+
+/* middle line */
+.menu span:nth-child(2) {
+  width: 60%;              /* shorter */
+  margin-left: auto;
+  margin-right: auto;      /* ✅ centers it */
+}
+
+
+
