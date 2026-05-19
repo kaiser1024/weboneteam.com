@@ -12,7 +12,8 @@ body {
 }
 
 :root {
-  --bar-width: 60px;
+  --hamburger-bar-width: 60px;
+  --hamburger-bar-height: 8px;
 }
 
 h1, h2, h3 {
