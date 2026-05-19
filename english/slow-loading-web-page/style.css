@@ -75,6 +75,11 @@ nav {
   cursor: pointer;
 }
 
+.hamburger-menu:has(input:checked) {
+  foreground: white;
+  background: #333;
+}
+
 .hamburger-menu::before,
 .hamburger-menu::after,
 .hamburger-menu input {
@@ -123,6 +128,10 @@ nav {
   color: var(--background);
   max-width: 10rem;
   min-height: 100vh;
+}
+
+.hamburger-menu:has(input:checked) + .nav-items {
+  translate: 0;
 }
 
 .dropdown {
