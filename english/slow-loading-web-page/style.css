@@ -84,7 +84,7 @@ nav {
   background-color: var(--foreground);
   border-radius: 9999px;
   transform-origin: left center;
-  transition: opacity var(--animation-timing);
+  transition: opacity var(--animation-timing); width var(--animation-timing); translate var(--animation-timing); rotate var(--animation-timing);
 }
 
 .hamburger-menu input {
@@ -97,10 +97,16 @@ nav {
 
 .hamburger-menu:has(input:checked)::before{
   rotate: 45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--hamburger-bar-height) * -2);
+
 }
 
 .hamburger-menu:has(input:checked)::after{
   rotate: -45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--hamburger-bar-height) * -2);
+
 }
 
 .hamburger-menu input:checked {
