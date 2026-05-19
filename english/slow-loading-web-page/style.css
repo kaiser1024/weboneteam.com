@@ -38,7 +38,6 @@ header {
   flex: 0 0 auto;
 }
 
-
 nav {
   display: flex;
   align-items: center;
@@ -46,7 +45,6 @@ nav {
   flex: 1;
   
   position: relative; /* ✅ required */
-
 }
 
 
@@ -56,10 +54,12 @@ nav {
   margin-left: auto;
 }
 
-
-
 .menu {
   display: none;
+}
+
+.hamburger-menu {
+  display:flex;
 }
 
 .hamburger-menu::before,
