@@ -11,6 +11,7 @@
   --foreground: #333;
   --background: white;
   --hamburger-margin: 5px;
+  --animation-timing: 200ms ease-in-out;
 }
 
 body {
@@ -76,10 +77,11 @@ nav {
 .hamburger-menu::after,
 .hamburger-menu input {
   content: "";
-  width: var(hamburger-bar-width);
-  height: var(hamburger-bar-height);
+  width: var(--hamburger-bar-width);
+  height: var(--hamburger-bar-height);
   background-color: var(--foreground);
   border-radius: 9999px;
+  transition: opacity var(--animation-timing);
 }
 
 .hamburger-menu input {
@@ -90,9 +92,10 @@ nav {
   pointer-events: none;
 }
 
-/* .hamburger-menu input:checked {
-  background: red;
-} */
+.hamburger-menu input:checked {
+  opacity: 0;
+  width: 0;
+}
 
 .dropdown {
   display: none;
