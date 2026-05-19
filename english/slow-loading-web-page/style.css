@@ -28,6 +28,7 @@ header {
   position: sticky;
   top: 0;
   padding: clamp(12px, 2vw, 24px);
+  border-radius: 9999px;
 
   display: flex;
   align-items: center;
@@ -71,6 +72,7 @@ nav {
   width: var(hamburger-bar-width);
   height: var(hamburger-bar-height);
   background-color: var(--foreground);
+  border-radius: 9999px;
 } 
 .dropdown {
   display: none;
