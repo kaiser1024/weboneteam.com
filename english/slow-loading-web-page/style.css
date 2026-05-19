@@ -84,7 +84,7 @@ nav {
 .hamburger-menu:has(input:focus-visible)::after, 
 .hamburger-menu input:focus-visible
 { border: 1px solid var(--background);
- box-shadow: 0 0 0 1px;
+ box-shadow: 0 0 0 1px var(--foreground);
   
 }
 
