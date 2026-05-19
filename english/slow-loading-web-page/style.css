@@ -12,6 +12,7 @@
   --background: white;
   --hamburger-margin: 5px;
   --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--hamburger-bar-height) * 3 + var(--hamburger-bars-gap) * 2)
 }
 
 body {
