@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-
-body {
-  font-family: "Inter", sans-serif;
-  background-color: #fff; /* Changed to white */
-  color: #000;
-}
-
 :root {
   --hamburger-bar-width: 60px;
   --hamburger-bar-height: 8px;
@@ -18,6 +11,13 @@ body {
   --foreground:#333;
   --background:white;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--background);
+  color: #000;
+}
+
 
 h1, h2, h3 {
   font-family: "Inter", sans-serif;
@@ -68,6 +68,7 @@ nav {
   content: "";
   width: var(hamburger-bar-width);
   height: var(hamburger-bar-height);
+  background-color: var(--foreground);
 } 
 .dropdown {
   display: none;
