@@ -116,6 +116,11 @@ nav {
 
 .nav-items {
   translate: -100%;
+  margin-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+  background-color: var(--foreground);
+  color: var(--background);
+  max-width: 10rem;
+  heigth: 100vh;
 }
 
 .dropdown {
@@ -128,11 +133,9 @@ nav {
   flex-direction: column;
 }
 
-
 .dropdown a {
   padding: 10px;
 }
-
 
 nav.open .dropdown {
   display: flex;
@@ -146,11 +149,13 @@ nav.open .dropdown {
 }
 
 /* middle line */
+/* 
 .menu span:nth-child(2) {
   width: 60%;              /* shorter */
   margin-left: auto;
   margin-right: auto;      /* ✅ centers it */
 }
+*/
 
 
 
