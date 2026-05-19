@@ -11,6 +11,10 @@ body {
   color: #000;
 }
 
+:root {
+  --bar-width: 60px;
+}
+
 h1, h2, h3 {
   font-family: "Inter", sans-serif;
 }
