@@ -62,6 +62,9 @@ nav {
   display: flex;
   flex-direction: column;
   gap: var(hamburger-bars-gap);
+
+  width: max-content;
+  position: absolute;
 }
 
 .hamburger-menu::before,
