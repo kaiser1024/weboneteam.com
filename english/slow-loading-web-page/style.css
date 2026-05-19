@@ -114,6 +114,10 @@ nav {
   width: 0;
 }
 
+.nav-items {
+  translate: -100%;
+}
+
 .dropdown {
   display: none;
   position: absolute;
