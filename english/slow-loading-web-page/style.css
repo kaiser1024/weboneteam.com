@@ -73,7 +73,13 @@ nav {
   height: var(hamburger-bar-height);
   background-color: var(--foreground);
   border-radius: 9999px;
-} 
+}
+
+.hamburger-menu input {
+  appearance: none;
+}
+
+  
 .dropdown {
   display: none;
   position: absolute;
