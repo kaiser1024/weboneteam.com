@@ -81,7 +81,11 @@ nav {
   outline: none;
   pointer-events: none;
 }
-  
+
+/* .hamburger-menu input:checked {
+  background: red;
+} */
+
 .dropdown {
   display: none;
   position: absolute;
