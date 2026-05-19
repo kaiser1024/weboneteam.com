@@ -8,8 +8,9 @@
   --hamburger-bar-width: 60px;
   --hamburger-bar-height: 8px;
   --hamburger-bars-gap: 8px;
-  --foreground:#333;
-  --background:white;
+  --foreground: #333;
+  --background: white;
+  --hamburger-margin: 5px;
 }
 
 body {
@@ -65,6 +66,10 @@ nav {
 
   width: max-content;
   position: absolute;
+  top: var(hamburger-margin);
+  left: var(hamburger-margin);
+  z-index: 2;
+  cursor: pointer;
 }
 
 .hamburger-menu::before,
