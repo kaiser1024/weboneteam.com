@@ -115,12 +115,14 @@ nav {
 }
 
 .nav-items {
+  transition: translate var(--animation-timing);
   translate: -100%;
-  margin-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+  padding: 0.5rem 1rem;
+  padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
   background-color: var(--foreground);
   color: var(--background);
   max-width: 10rem;
-  heigth: 100vh;
+  min-height: 100vh;
 }
 
 .dropdown {
