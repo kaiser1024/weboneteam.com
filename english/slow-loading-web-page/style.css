@@ -59,7 +59,8 @@ nav {
 }
 
 .hamburger-menu {
-  display:flex;
+  display: flex;
+  flex-direction: column;
 }
 
 .hamburger-menu::before,
