@@ -48,7 +48,6 @@ nav {
   position: relative; /* ✅ required */
 }
 
-
 .nav-items {
   display: flex;
   gap: 20px;
@@ -77,8 +76,9 @@ nav {
 
 .hamburger-menu input {
   appearance: none;
+  padding: 0;
+  margin: 0;
 }
-
   
 .dropdown {
   display: none;
