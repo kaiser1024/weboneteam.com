@@ -49,5 +49,5 @@ html {
 }
 
 .hamburger-menu input:checked {
-  background-color: black;  width: 0;
+  background-color: black;
 }
