@@ -12,18 +12,7 @@ html {
   font-size: 16px;
 }
 
-header {
-  position: relative;
-  }
-
-nav {
-  position: absolute;
-  top: 120%;
-  background-color: black;
-  color: white;
-  width: max-content;
-  padding: 1rem;
-}
+header {}
 
 ul {
   list-style: none;
@@ -38,6 +27,7 @@ ul {
 }
 
 .hamburger {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -79,6 +69,17 @@ ul {
 
 .hamburger input:checked {
   opacity: 0;
+}
+
+nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%
+  background-color: black;
+  color: white;
+  width: max-content;
+  padding: 1rem;
 }
 
 a,
