@@ -10,7 +10,6 @@
 
 html {
   font-size: 16px;
-  transition: rotate var(--animation-timing);
 }
 
 .topbar {
@@ -50,6 +49,8 @@ html {
   translate: 0 11px;
   rotate: 45deg;
   transform-origin: center;
+  transition: rotate var(--animation-timing);
+
 }
 
 .hamburger:has(input:checked)::after{
