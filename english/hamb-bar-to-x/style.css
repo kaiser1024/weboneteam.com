@@ -19,6 +19,7 @@ header {
 nav {
   position: absolute;
   top: 120%;
+  background-color: black;
   color: white;
 }
 
