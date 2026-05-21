@@ -14,9 +14,10 @@ html {
   content: "";
   height: 5px;
   width: 5px;
-  background: white;
+  background-color: white;
 }
 
-input {
+.hamburger input {
+  appearance: none;
   cursor: not-allowed;
 }
