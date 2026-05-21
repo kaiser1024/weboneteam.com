@@ -1,5 +1,10 @@
+
+html {
+  font-size: 16px;
+}
+
 .topbar {
   background: black;
-  margin: 5px;
+  margin: 1.5rem;
   border-radius: 5px;
 }
