@@ -71,6 +71,10 @@ ul {
   opacity: 0;
 }
 
+nav {
+  color: white;
+}
+
 /*.hamburger:has(input:checked) .nav-items {
   opacity: 1;
   translate: 0 0;
