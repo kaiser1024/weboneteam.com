@@ -45,5 +45,5 @@ html {
 }
 
 .hamburger:has(input:checked)::after{
-  display: none;
+  background-color: black;
 }
