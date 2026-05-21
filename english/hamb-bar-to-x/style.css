@@ -80,7 +80,7 @@ nav {
   background-color: black;
 }
 
-.hamburger:has(input:checked) .topbar {
+.topbar:has(input:checked) {
   border-radius: 5px 5px 0 0 ;
 }
 
