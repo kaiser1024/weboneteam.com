@@ -5,7 +5,11 @@
 }
 
 :root {
-  --animation-timing: 200ms ease-in-out;
+  --animation-timing1: 200ms ease-in-out;
+  --animation-timing2: 300ms ease-in-out;
+  --animation-timing3: 400ms ease-in-out;
+  --animation-timing4: 500ms ease-in-out;
+
 }
 
 html {
@@ -90,11 +94,26 @@ ul {
   top: 100%;
   left: 0;
   width: 100%;
+  height: 30px;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 0 0 0 0;
+  transition: opacity var(--animation-timing1);
+}
+
+.nav2 {
+  position: absolute;
+  opacity: 0;
+  top: calc(100% + 30px + 2rem);
+  left: 0;
+  width: 100%;
+  height: 30px;
   color: white;
   background-color: black;
   padding: 1rem;
   border-radius: 0 0 5px 5px;
-  transition: opacity var(--animation-timing);
+  transition: opacity var(--animation-timing2);
 }
 
 .topbar:has(input:checked) .nav1 {
