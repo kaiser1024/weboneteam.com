@@ -73,14 +73,13 @@ ul {
   opacity: 0;
 }
 
-.hamburger:has(input:checked) .nav-items {
+/*.hamburger:has(input:checked) .nav-items {
   opacity: 1;
   translate: 0 0;
   transition: translate var(--animation-timing), opacity var(--animation-timing); 
+}*/
 
-}
-
-.nav-items {
+/*.nav-items {
   position: absolute;
   opacity: 0;
   translate: 0 -100%;
@@ -93,7 +92,7 @@ ul {
   border-radius: 0 0 5px 5px ;
   z-index: 3;
   transition: translate var(--animation-timing), opacity var(--animation-timing);
-}
+}*/
 
 a,
 a:active,
