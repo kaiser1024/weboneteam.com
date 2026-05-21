@@ -37,6 +37,7 @@ html {
 .hamburger input {
   appearance: none;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .hamburger:has(input:checked)::before{
