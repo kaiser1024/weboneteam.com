@@ -50,5 +50,6 @@ html {
 }
 
 .hamburger input:checked {
-  background-color: black;
+  rotate: -45deg;
+  transform-origin: left center;
 }
