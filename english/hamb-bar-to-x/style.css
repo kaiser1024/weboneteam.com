@@ -21,6 +21,8 @@ nav {
   top: 120%;
   background-color: black;
   color: white;
+  width: max-content;
+  padding: 1rem;
 }
 
 ul {
