@@ -74,7 +74,7 @@ ul {
 }
 
 .hamburger:has(input:checked) .nav-items {
-  opacity: 90;
+  opacity: 1;
   translate: 0 0;
   transition: translate var(--animation-timing), opacity var(--animation-timing); 
 
@@ -84,7 +84,7 @@ ul {
   position: absolute;
   opacity: 0;
   translate: 0 -100%;
-  top: 90%;
+  top: 100%;
   left: 0;
   width: 100%;
   background-color: black;
