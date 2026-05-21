@@ -76,11 +76,13 @@ nav {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%
+  width: 100%;
   background-color: black;
   color: white;
   width: max-content;
   padding: 1rem;
+  border-radius: 5px;
+
 }
 
 a,
