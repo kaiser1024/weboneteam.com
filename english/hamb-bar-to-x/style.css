@@ -24,7 +24,7 @@ ul {
   background-color: black;
   padding: 1rem;
   margin: 0.9rem;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
 .hamburger {
@@ -72,6 +72,10 @@ ul {
   opacity: 0;
 }
 
+.hamburger:has(input:checked).nav-items{
+  background-color: red; 
+}
+
 nav {
   position: absolute;
   top: 100%;
@@ -80,7 +84,7 @@ nav {
   background-color: black;
   color: white;
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 0px;
 
 }
 
