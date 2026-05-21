@@ -15,3 +15,7 @@ html {
   width: 5px;
   background: white;
 }
+
+input {
+  cursor: not-allowed;
+}
