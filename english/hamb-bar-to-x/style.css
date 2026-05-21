@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+::root {
+  --animation-timing: 200ms ease-in-out;
+}
+
 html {
   font-size: 16px;
+  transition: rotate var(--animation-timing);
 }
 
 .topbar {
