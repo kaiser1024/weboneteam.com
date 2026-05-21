@@ -16,7 +16,8 @@ html {
 }
 
 .hamburger::before,
-.hamburger::after {
+.hamburger::after,
+.hamburger index {
   content: "";
   height: 5px;
   width: 5px;
