@@ -92,10 +92,14 @@ ul {
   width: 100%;
   color: white;
   background-color: black;
+  padding: 1rem;
+  border-radius: 0 0 5px 5px;
+  transition: opacity var(--animation-timing);
 }
 
 .topbar:has(input:checked) .nav1 {
   opacity: 1;
+  transition: opacity var(--animation-timing);
 }
 
 /*.hamburger:has(input:checked) .nav-items {
