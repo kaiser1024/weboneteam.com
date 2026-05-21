@@ -41,10 +41,10 @@ html {
 }
 
 .hamburger:has(input:checked)::before{
-  background-color: yellow;
+  background-color: red;
   rotate: 0deg;
-  translate: 0 5px;
-  transform-origin: left center;
+  translate: 0 11px;
+  transform-origin: center;
 }
 
 .hamburger:has(input:checked)::after{
