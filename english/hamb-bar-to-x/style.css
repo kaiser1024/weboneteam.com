@@ -48,9 +48,12 @@ html {
 
 .hamburger:has(input:checked)::after{
   background-color: black;
+  rotate: 0deg;
+  transform-origin: left center;
+
 }
 
 .hamburger input:checked {
   rotate: 0deg;
-  transform-origin: left center;
+  background-color: black;
 }
