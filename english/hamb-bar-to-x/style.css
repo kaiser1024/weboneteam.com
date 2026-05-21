@@ -38,3 +38,7 @@ html {
   appearance: none;
   cursor: not-allowed;
 }
+
+.hamburger:has(input:checked)::before{
+  rotate: 45deg;
+}
