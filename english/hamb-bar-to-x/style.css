@@ -15,6 +15,11 @@ html {
   border-radius: 5px;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+}
+
 .hamburger::before,
 .hamburger::after,
 .hamburger index {
