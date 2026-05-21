@@ -84,6 +84,14 @@ nav {
   border-radius: 5px 5px 0 0 ;
 }
 
+.nav1 {
+  opacity: 0;
+}
+
+.topbar:has(input:checked) .nav1 {
+  opacity: 1;
+}
+
 /*.hamburger:has(input:checked) .nav-items {
   opacity: 1;
   translate: 0 0;
