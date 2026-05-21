@@ -42,7 +42,7 @@ html {
 
 .hamburger:has(input:checked)::before{
   background-color: red;
-  rotate: 0deg;
+  rotate: 45deg;
   translate: 0 11px;
   transform-origin: center;
 }
