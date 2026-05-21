@@ -64,3 +64,12 @@ html {
 .hamburger input:checked {
   opacity: 0;
 }
+
+a,
+a:active,
+a:focus,
+a:focus-visible,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
