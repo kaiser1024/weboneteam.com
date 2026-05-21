@@ -21,10 +21,11 @@ ul {
 .topbar {
   position: relative;
   display: flex;
-  background-color: black;
+  background-color: red;
   padding: 1rem;
   margin: 0.9rem;
   border-radius: 5px;
+  z-index: 999;
 }
 
 .hamburger {
@@ -73,18 +74,20 @@ ul {
 }
 
 .hamburger:has(input:checked) .nav-items {
-  background-color: red; 
+  opacity: 90;
 }
 
-nav {
+.nav-items {
   position: absolute;
-  top: 100%;
+  opacity: 0;
+  top: 90%;
   left: 0;
   width: 100%;
   background-color: black;
   color: white;
   padding: 1rem;
   border-radius: 0px;
+  z-index: 3;
 
 }
 
