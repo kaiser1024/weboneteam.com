@@ -11,6 +11,7 @@ html {
 .topbar {
   display: flex;
   background-color: black;
+  padding: 1rem;
   margin: 0.9rem;
   border-radius: 5px;
 }
