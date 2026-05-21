@@ -121,6 +121,11 @@ ul {
   transition: opacity var(--animation-timing);
 }
 
+.topbar:has(input:checked) .nav2 {
+  opacity: 1;
+  transition: opacity var(--animation-timing);
+}
+
 /*.hamburger:has(input:checked) .nav-items {
   opacity: 1;
   translate: 0 0;
