@@ -72,7 +72,12 @@ ul {
 }
 
 nav {
+  position: absolute;
   color: white;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: black;
 }
 
 /*.hamburger:has(input:checked) .nav-items {
