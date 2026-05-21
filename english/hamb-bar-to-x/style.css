@@ -11,8 +11,8 @@ html {
 .topbar {
   display: flex;
   background-color: black;
-  margin: 0.5rem;
-  border-radius: 0;
+  margin: 0.9rem;
+  border-radius: 5px;
 }
 
 .hamburger::before,
