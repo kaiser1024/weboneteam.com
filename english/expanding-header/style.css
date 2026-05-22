@@ -202,9 +202,11 @@ main {
   margin: 20px;
 }
 
-.topbar:has(input:checked) main {
-  background-color: d3d3d3;
-  opacity: 0.8;
+.topbar:has(input:checked) ~ main {
+  background-color: #d3d3d3;
+  opacity: 0.8;  
+  filter: blur(5px);
+
 }
 
 h1 {
