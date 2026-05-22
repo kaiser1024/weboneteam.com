@@ -16,6 +16,10 @@ header {
   border-radius: 4px;
 }
 
+.topbar.hidden {
+transform: translate(-100%);
+}
+
 .topbar-flex1 {
   display: flex;
   align-items: center;
