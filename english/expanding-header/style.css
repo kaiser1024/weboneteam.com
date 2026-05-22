@@ -1,7 +1,7 @@
 header {
-position: fixed;
+position: absolute;
 }
 
 h1 {
-  color: red;
+  color: black;
 }
