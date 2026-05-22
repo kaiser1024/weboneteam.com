@@ -2,6 +2,8 @@
   --background: white;
   --foreground: black;
 
+  --bar-on-foreground: white;
+
   --text-on-foreground: white;
 }
 
@@ -13,6 +15,11 @@ header {
   color: var(--text-on-foreground);
   border-radius: 4px;
   display: none;
+}
+
+.hamburger input {
+  appearance: none:
+  background-color: var(bar-on-foreground);
 }
 
 h1 {
