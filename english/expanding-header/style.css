@@ -51,7 +51,7 @@ header {
 }
 
 .topbar.hidden {
-transform: translateX(calc(-100% - (--topbar-margin)));
+transform: translateX(calc(-100% - var(--topbar-margin)));
 }
 
 .topbar-flex1 {
