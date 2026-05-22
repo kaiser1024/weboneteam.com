@@ -143,6 +143,10 @@ header {
   display: none;
 }
 
+.topbar:has(input:checked) {
+  opacity: 0.8;
+}
+
 .topbar:has(input:checked) .topbar-flex2 {
   display: block;
   margin-top: 40px;
