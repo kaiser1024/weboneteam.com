@@ -61,6 +61,8 @@ transform: translateX(-100%);
 
 .hamburger input {
   appearance: none;
+  cursor: not-allowed;
+  pointer-events: none;
   width: 25px;
   height: 4px;
   background-color: var(--bar-on-foreground);
