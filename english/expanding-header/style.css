@@ -10,7 +10,7 @@
 header {
   position: sticky;
   top: 0;
-  padding: 2px;
+  padding: 20px;
   background-color: var(--foreground);
   color: var(--text-on-foreground);
   border-radius: 4px;
@@ -30,7 +30,7 @@ header {
 
 .hamburger input {
   appearance: none;
-  background-color: var(bar-on-foreground);
+  background-color: var(--bar-on-foreground);
 }
 
 h1 {
