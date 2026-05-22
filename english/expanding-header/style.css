@@ -126,23 +126,47 @@ header {
 .topbar:has(input:checked) .topbar-flex2 {
   display: block;
   margin-top: 40px;
-  margin-bottom; 40px;
+  margin-bottom: 40px;
 }
 
 .nav1 {
   display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #0a0a0a;
+  color: white;
 }
 
 .nav2 {
   display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #0a0a0a;
+  color: white;
 }
 
 .nav3 {
   display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #0a0a0a;
+  color: white;
 }
 
 .nav4 {
   display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #0a0a0a;
+  color: white;
 }
 
 main {
