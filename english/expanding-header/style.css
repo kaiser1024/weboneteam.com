@@ -61,10 +61,6 @@ header {
   justify-content: space-between;
 }
 
-.topbar-flex2 {
-  display: none;
-}
-
 .hamburger {
   position: relative;
   display: flex;
@@ -113,20 +109,28 @@ header {
   opacity: 0;
 }
 
-.nav1 {
+.topbar-flex2 {
   display: none;
+}
+
+.topbar:has(input:checked) .topbar-flex2 {
+  display: block;
+}
+
+.nav1 {
+  display: block;
 }
 
 .nav2 {
-  display: none;
+  display: block;
 }
 
 .nav3 {
-  display: none;
+  display: block;
 }
 
 .nav4 {
-  display: none;
+  display: block;
 }
 
 main {
