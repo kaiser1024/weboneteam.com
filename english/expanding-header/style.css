@@ -14,7 +14,9 @@ header {
   background-color: var(--foreground);
   color: var(--text-on-foreground);
   border-radius: 4px;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .hamburger input {
@@ -23,7 +25,7 @@ header {
 }
 
 h1 {
-  color: blue;
+  color: red;
 }
 
 a {
