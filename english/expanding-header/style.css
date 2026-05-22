@@ -41,13 +41,13 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 64px:
+  height: 64px;
   background-color: black;
   padding: 1rem;
   margin: var(--topbar-margin);
   border-radius: 5px;
   z-index: 999;
-  aligh-items: center;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -70,6 +70,7 @@ header {
   color: #ff0066;
   font-size: 24px;
   font-weight: bold;
+}
 
 .hamburger {
   position: relative;
