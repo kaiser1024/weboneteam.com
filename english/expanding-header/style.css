@@ -1,7 +1,7 @@
 header {
-position: absolute;
+position: relative;
 }
 
 h1 {
-  color: black;
+  color: red;
 }
