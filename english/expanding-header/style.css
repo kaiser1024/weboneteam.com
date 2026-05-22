@@ -14,8 +14,12 @@
 
   --animation-timing: 200ms ease-in-out;}
 
+ul {
+  list-style: none;
+}
+
 header {
-  position: sticky;
+  position: relative;
   top: 0;
   width: 100%;
   margin: 5px;
