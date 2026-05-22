@@ -143,7 +143,7 @@ header {
   display: none;
 }
 
-.topbar:has(input:checked) {
+.topbar:has(input:checked) .topbar-flex1 {
   opacity: 0.8;
   /*background-color: rgba(0, 0, 0, 0.9);*/
 }
@@ -155,7 +155,6 @@ header {
   padding: 5px;
   background-color: black;
   border-radius: 4px;
-  opacity: 1;
 }
 
 .nav1 {
