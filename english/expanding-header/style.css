@@ -33,6 +33,14 @@ transform: translateX(-100%);
   justify-content: space-between;
 }
 
+.hamburger {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
 .hamburger::before,
 .hamburger::after {
   content: "";
@@ -45,14 +53,14 @@ transform: translateX(-100%);
 
 .hamburger input {
   appearance: none;
-  width: 30px;
+  width: 25px;
   height: 4px;
   background-color: var(--bar-on-foreground);
   border-radius: 9999px;
 }
 
 h1 {
-  color: red;
+  color: black;
 }
 
 a {
