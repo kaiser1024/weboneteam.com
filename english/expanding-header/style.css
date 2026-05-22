@@ -61,6 +61,16 @@ header {
   justify-content: space-between;
 }
 
+.logo {
+  color: white;
+  font-size: 16px;
+}
+
+.logo-one {
+  color: #ff0066;
+  font-size: 24px;
+  font-weight: bold;
+
 .hamburger {
   position: relative;
   display: flex;
@@ -115,6 +125,8 @@ header {
 
 .topbar:has(input:checked) .topbar-flex2 {
   display: block;
+  margin-top: 40px;
+  margin-bottom; 40px;
 }
 
 .nav1 {
