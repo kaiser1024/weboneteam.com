@@ -1,2 +1,7 @@
 header {
-position: fixed}
+position: fixed;
+}
+
+h1 {
+  color: red;
+}
