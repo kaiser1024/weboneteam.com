@@ -1,6 +1,8 @@
 :root {
   --background: white;
   --foreground: black;
+
+  --text-on-foreground: white;
 }
 
 header {
@@ -8,7 +10,7 @@ header {
   top: 0;
   padding: 2px;
   background-color: var(--foreground);
-  color: white;
+  color: var(--text-on-foreground);
   border-radius: 4px;
 }
 
