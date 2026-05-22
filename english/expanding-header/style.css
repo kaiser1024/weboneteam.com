@@ -116,7 +116,7 @@ transform: translateX(calc(-100% - var(--topbar-margin)));
 
 
 h1 {
-  color: red;
+  color: black;
 }
 
 a {
