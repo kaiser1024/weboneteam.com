@@ -10,7 +10,7 @@ window.addEventListener('scroll', () => {
   if (currentScroll <= 0 ) {
     topbar.classList.remove('hidden');
 
-    main.classList.remoev('no-bar');
+    main.classList.remove('no-blur');
     return;
   }
 
@@ -18,10 +18,10 @@ window.addEventListener('scroll', () => {
 
   if (currentScroll > lastScroll) {
     topbar.classList.add('hidden');
-    main.classList.add('no-bar'); 
+    main.classList.add('no-blur'); 
   } else {
     topbar.classList.remove('hidden');
-    main.classList.remove('no-bar');
+    main.classList.remove('no-blur');
   }
 
   lastScroll = currentScroll;
