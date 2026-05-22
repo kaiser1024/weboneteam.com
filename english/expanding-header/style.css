@@ -1,8 +1,14 @@
 header {
   position: sticky;
   top: 0;
+  background-color: black;
+  color: white;
 }
 
 h1 {
-  color: red;
+  color: black;
+}
+
+a {
+  decoration: none;
 }
