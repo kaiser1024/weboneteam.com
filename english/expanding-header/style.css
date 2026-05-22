@@ -210,7 +210,7 @@ main {
   filter: blur(1px);
 }
 
-.no-blur {
+main.no-blur {
   filter: blur(0px);
 }
 
