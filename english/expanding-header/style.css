@@ -21,18 +21,6 @@ html {
   font-size: 16px;
 }
 
-body {
-  background-image:
-    linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0)),
-    linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0)),
-    repeating-linear-gradient(
-      45deg,
-      #111 0 10px,
-      #1a1a1a 10px 20px
-    );
-}
-
-
 ul {
   list-style: none;
 }
