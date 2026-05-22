@@ -29,6 +29,19 @@ header {
   transition: transform 0.3s ease;
 }
 
+.topbar {
+  position: relative;
+  display: flex;
+  background-color: black;
+  padding: 1rem;
+  margin: 0.9rem;
+  border-radius: 5px;
+  z-index: 999;
+  display: flex;
+  aligh-items: center;
+  justify-content: space-between;
+}
+
 .topbar.hidden {
 transform: translateX(-100%);
 }
