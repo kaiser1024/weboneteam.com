@@ -12,10 +12,11 @@ header {
   background-color: var(--foreground);
   color: var(--text-on-foreground);
   border-radius: 4px;
+  display: none;
 }
 
 h1 {
-  color: green;
+  color: black;
 }
 
 a {
