@@ -14,7 +14,7 @@ header {
   background-color: var(--foreground);
   color: var(--text-on-foreground);
   border-radius: 4px;
-  display: flex;
+  display: block;
 }
 
 .hamburger input {
