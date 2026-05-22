@@ -65,6 +65,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
 }
 
 .hamburger {
@@ -130,7 +132,6 @@ header {
 .nav4 {
   display: none;
 }
-
 
 main {
   padding-top: 90px;
