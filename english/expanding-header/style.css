@@ -32,6 +32,16 @@ transform: translate(-100%);
   justify-content: space-between;
 }
 
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  border-radius: 9999px;
+}
+
 .hamburger input {
   appearance: none;
   width: 30px;
