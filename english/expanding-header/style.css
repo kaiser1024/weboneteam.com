@@ -115,6 +115,23 @@ header {
   opacity: 0;
 }
 
+.nav1 {
+  display: none;
+}
+
+.nav2 {
+  display: none;
+}
+
+.nav3 {
+  display: none;
+}
+
+.nav4 {
+  display: none;
+}
+
+
 main {
   padding-top: 90px;
 }
