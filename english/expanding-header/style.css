@@ -12,7 +12,12 @@
 
   --text-on-foreground: white;
 
-  --animation-timing: 200ms ease-in-out;}
+  --animation-timing: 200ms ease-in-out;
+
+  --topbar-margin: 1rem;
+}
+
+
 
 html {
   font-size: 16px;
@@ -35,10 +40,9 @@ header {
 
 .topbar {
   position: relative;
-  display: flex;
   background-color: black;
   padding: 1rem;
-  margin: 0.9rem;
+  margin: var(--topbar-margin);
   border-radius: 5px;
   z-index: 999;
   display: flex;
@@ -47,7 +51,7 @@ header {
 }
 
 .topbar.hidden {
-transform: translateX(-100%);
+transform: translateX(calc(-100% - (--topbar-margin)));
 }
 
 .topbar-flex1 {
@@ -112,7 +116,7 @@ transform: translateX(-100%);
 
 
 h1 {
-  color: blue;
+  color: red;
 }
 
 a {
