@@ -11,7 +11,8 @@
   --bar-on-foreground: white;
 
   --text-on-foreground: white;
-}
+
+  --animation-timing: 200ms ease-in-out;}
 
 header {
   position: sticky;
@@ -69,8 +70,29 @@ transform: translateX(-100%);
   border-radius: 9999px;
 }
 
+.hamburger:has(input:checked)::before{
+  background-color: white;
+  translate: 0 9px;
+  rotate: 45deg;
+  transform-origin: center;
+  transition: translate var(--animation-timing), rotate var(--animation-timing); 
+}
+
+.hamburger:has(input:checked)::after{
+  background-color: white;
+  translate: 0 -9px;
+  rotate: -45deg;
+  transform-origin: center;
+  transition: translate var(--animation-timing), rotate var(--animation-timing); 
+}
+
+.hamburger input:checked {
+  opacity: 0;
+}
+
+
 h1 {
-  color: red;
+  color: blue;
 }
 
 a {
