@@ -1,8 +1,13 @@
+:root {
+  --background: white;
+  --foreground: black;
+}
+
 header {
   position: sticky;
   top: 0;
   padding: 2px;
-  background-color: black;
+  background-color: var(--foreground);
   color: white;
   border-radius: 4px;
 }
