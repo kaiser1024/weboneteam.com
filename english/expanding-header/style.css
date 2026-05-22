@@ -145,6 +145,7 @@ header {
 
 .topbar:has(input:checked) {
   opacity: 0.8;
+  /*background-color: rgba(0, 0, 0, 0.9);*/
 }
 
 .topbar:has(input:checked) .topbar-flex2 {
