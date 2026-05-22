@@ -38,6 +38,7 @@ header {
 }
 
 .canvas {
+  position: fixed;
   z-index: 2;
   display: grid;
   grid-template-columns: repeat(46, 1fr);
@@ -45,6 +46,7 @@ header {
 
 
 .canvas > div {
+  position: relative;
   border: 1px solid #d3d3d3;
 }
 
