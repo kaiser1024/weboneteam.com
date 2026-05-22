@@ -99,7 +99,7 @@ header {
 
 .hamburger:has(input:checked)::before{
   background-color: white;
-  translate: 0 9px;
+  translate: 0 8px;
   rotate: 45deg;
   transform-origin: center;
   transition: translate var(--animation-timing), rotate var(--animation-timing); 
@@ -107,7 +107,7 @@ header {
 
 .hamburger:has(input:checked)::after{
   background-color: white;
-  translate: 0 -9px;
+  translate: 0 -8px;
   rotate: -45deg;
   transform-origin: center;
   transition: translate var(--animation-timing), rotate var(--animation-timing); 
@@ -135,6 +135,7 @@ header {
 
 main {
   padding-top: 90px;
+  margin: 20px;
 }
 
 
