@@ -181,6 +181,11 @@ h1 {
   color: black;
 }
 
-a {
+a,
+a:active,
+a:focus,
+a:focus-visible,
+a:visited {
   text-decoration: none;
+  color: inherit;
 }
