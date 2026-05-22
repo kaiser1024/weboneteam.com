@@ -26,6 +26,7 @@ ul {
 }
 
 header {
+  z-index: 999;
   position: relative;
   top: 0;
   margin: 5px;
@@ -34,6 +35,22 @@ header {
   color: var(--text-on-foreground);
   border-radius: 4px;
   transition: transform 0.3s ease;
+}
+
+.canvas {
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(46, 1fr);
+}
+
+
+.canvas > div {
+  border: 1px solid #d3d3d;
+}
+
+
+.content {
+  z-index: 3;
 }
 
 .topbar {
