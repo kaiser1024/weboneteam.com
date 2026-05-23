@@ -245,7 +245,7 @@ main.no-blur {
 
 h1 {
   color: black;
-  text-shadow: 2px 4px 6px black /*horizontal vertical blur-radius color*/ 
+  text-shadow: 2px 4px 4px gray /*horizontal vertical blur-radius color*/ 
   /* multiple shadows for layered or glowing effects: 
   text-shadow:
   1px 1px 0 black,
