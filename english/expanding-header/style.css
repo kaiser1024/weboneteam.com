@@ -40,6 +40,8 @@ a {
   --topbar-margin: 5px;
   --topbar-padding: 5px;
   --topbar-corners: 3px;
+
+  --topbar-contains-hamburger-logo: flex;
 }
 
 .topbar {
@@ -52,6 +54,10 @@ a {
   margin: var(--topbar-margin); 
   padding: var(--topbar-padding);
   border-radius: var(--topbar-corners);
+}
+
+.topbar.container {
+  display: var(--topbar-contains-hamburger-logo);
 }
 
 /*
