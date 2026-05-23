@@ -226,6 +226,12 @@ body{
   background-size: var(--grid-size);
       }
 
+.white-background {
+  background-color: white;
+  margin: 0; 
+}
+
+
 main.no-blur {
   filter: blur(0px);
 }
