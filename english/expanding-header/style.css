@@ -26,7 +26,8 @@ ul {
 
 a {
   text-decoration: var(--link-automatic-styling);
-
+}
+  
 /* BASE TOPBAR SETTINGS */
 
 :root {
