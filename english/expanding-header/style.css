@@ -58,7 +58,7 @@ a {
   border-radius: var(--topbar-corners);
 }
 
-.topb {
+.topbar {
   display: flex;
   flex-direction: column;
 }
