@@ -96,8 +96,8 @@ header {
 
 .hamburger {
   position: relative;
-  display: flex;
-  flex-direction: column;
+ /* display: flex;
+  flex-direction: column;*/
   gap: 4px;
   cursor: pointer;
 }
@@ -280,6 +280,8 @@ a:visited {
   border-radius: 9999px;}
 
 .hamburger-bars {
+  display: flex;
+  flex-direction: column;
   gap: 4px;
   background-color: var(--hamburger-bar-color); 
 }
