@@ -36,6 +36,7 @@ ul {
   color: var(--topbar-default-text-color);
   position: var(--topbar-to-viewport);
   top: var(--topbar-screentop-distance);
+}
 
 /*
 :root {
