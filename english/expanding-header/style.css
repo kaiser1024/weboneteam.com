@@ -1,8 +1,41 @@
+/* BASE PAGE SETTINGS /*
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --page-background-color: white;
+  --page-default-textsize: 16px;
+}
+
+html {
+  background: var(--page-background-color);
+  font-size: var(--page-default-textsize);
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* BASE TOPBAR SETTINGS */
+
+:root {
+  --topbar-background-color: black;
+  --topbar-default-text-color: white;
+  --topbar-scroll-movement: fixed;
+  --topbar-screentop-distance: 0px;
+  --topbar-leftside-distance: 0px;
+}
+
+.topbar {
+  background-color: var(--topbar-background-color);
+  color: var(--topbar-default-text-color);
+  position: var(--topbar-to-viewport);
+  top: var(--topbar-screentop-distance);
 
 :root {
   --background: white;
@@ -20,13 +53,6 @@
   --grid-size: 15px 15px;
 }
 
-html {
-  font-size: 16px;
-}
-
-ul {
-  list-style: none;
-}
 
 header {
   z-index: 999;
