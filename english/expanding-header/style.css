@@ -42,6 +42,7 @@ a {
   color: var(--topbar-default-text-color);
   position: var(--topbar-scroll-movement);
   top: var(--topbar-screentop-distance);
+  left: var(--topbar-leftside-distance);
 }
 
 /*
