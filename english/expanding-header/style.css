@@ -42,6 +42,8 @@ a {
   --topbar-corners: 3px;
 
   --topbar-contains-hamburger-logo: flex;
+
+  --children: column;
 }
 
 .topbar {
@@ -58,6 +60,7 @@ a {
 
 .topbar.container {
   display: var(--topbar-contains-hamburger-logo);
+  flex-direction: var(--children);
 }
 
 /*
