@@ -59,7 +59,7 @@ a {
 }
 
 .topbar.container {
-  display: flex;
+  display: var(--topbar-contains-hamburger-logo);
   flex-direction: column;
 }
 
