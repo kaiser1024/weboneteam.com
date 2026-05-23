@@ -34,7 +34,7 @@ ul {
 .topbar {
   background-color: var(--topbar-background-color);
   color: var(--topbar-default-text-color);
-  position: var(--topbar-to-viewport);
+  position: var(--topbar-scroll-movement);
   top: var(--topbar-screentop-distance);
 }
 
