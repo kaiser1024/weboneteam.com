@@ -273,17 +273,14 @@ a:visited {
 .hamburger-bars::before,
 .hamburger-bars::after {
   content: "";
-  background-color: var(--hamburger-bar-color);
-}
-
-
-.hamburger-bars {
-  content: "";
   display: block;
   width: 30px;
   height: 4px;
   background-color: var(--hamburger-bar-color); 
-  border-radius: 9999px;
+  border-radius: 9999px;}
+
+.hamburger-bars {
+  background-color: var(--hamburger-bar-color); 
 }
 
 
