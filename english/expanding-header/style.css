@@ -39,7 +39,7 @@ a {
   --topbar-rightside-distance: 0px;
   --topbar-margin: 5px;
   --topbar-padding: 5px;
-  --
+  --topbar-corners: 3px;
 }
 
 .topbar {
@@ -51,6 +51,7 @@ a {
   right: var(--topbar-rightside-distance);
   margin: var(--topbar-margin); 
   padding: var(--topbar-padding);
+  border-radius: var(--topbar-corners);
 }
 
 /*
