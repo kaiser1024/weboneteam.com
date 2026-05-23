@@ -280,6 +280,7 @@ a:visited {
   border-radius: 9999px;}
 
 .hamburger-bars {
+  gap: 4px;
   background-color: var(--hamburger-bar-color); 
 }
 
