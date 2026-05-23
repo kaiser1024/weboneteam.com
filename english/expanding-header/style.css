@@ -104,7 +104,7 @@ header {
 
 .hamburger::before,
 .hamburger::after {
-  content: "";
+  /* content: "";*/
   display: block;
   width: 30px;
   height: 4px;
@@ -269,6 +269,13 @@ a:visited {
   --bar-to-x-animation-timing: 200ms ease-in-out;
   --hamburger-bar-color: white;
 }
+
+.hamburger-bars::before,
+.hamburger-bars::after {
+  content: "";
+  background-color: var(--hamburger-bar-color);
+}
+
 
 .hamburger-bars {
   background-color: var(--hamburger-bar-color);
