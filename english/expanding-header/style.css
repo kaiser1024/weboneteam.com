@@ -31,14 +31,13 @@ ul {
   --topbar-leftside-distance: 0px;
 }
 
-/*
-
 .topbar {
   background-color: var(--topbar-background-color);
   color: var(--topbar-default-text-color);
   position: var(--topbar-to-viewport);
   top: var(--topbar-screentop-distance);
 
+/*
 :root {
   --background: white;
   --foreground: black;
