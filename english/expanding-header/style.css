@@ -9,6 +9,10 @@
 :root {
   --page-background-color: white;
   --page-default-textsize: 16px;
+
+  --link-automatic-styling: none;
+
+  --list-automatic-styling: none;
 }
 
 html {
@@ -17,9 +21,11 @@ html {
 }
 
 ul {
-  list-style: none;
+  list-style: var(--list-automatic-styling);
 }
 
+a {
+  text-decoration: var(--link-automatic-styling);
 
 /* BASE TOPBAR SETTINGS */
 
