@@ -124,7 +124,7 @@ header {
 .hamburger {
   position: relative;
  /* display: flex;
-  flex-direction: column;*/
+  flex-direction: column;
   gap: 4px;
   cursor: pointer;
 }
@@ -137,7 +137,7 @@ header {
   height: 4px;
   background-color: white;
   border-radius: 9999px;
-}*/
+}
 
 .hamburger input {
   appearance: none;
@@ -145,7 +145,7 @@ header {
   pointer-events: none;
   width: 25px;
   height: 4px;
-  /* background-color: var(--bar-on-foreground); */
+  /* background-color: var(--bar-on-foreground); 
   border-radius: 9999px;
 }
 
@@ -277,7 +277,7 @@ h1 {
   text-shadow:
   1px 1px 0 black,
   2px 2px 0 gray,
-  3px 3px 5px rgba(0,0,0,0.5); */
+  3px 3px 5px rgba(0,0,0,0.5); 
 
 }
 
@@ -290,7 +290,7 @@ a:visited {
   color: inherit;
 }
 
-/* hamburger to x */
+/* hamburger to x 
 
 :root{
   --bar-to-x-animation-timing: 200ms ease-in-out;
