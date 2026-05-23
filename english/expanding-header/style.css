@@ -118,7 +118,7 @@ header {
   pointer-events: none;
   width: 25px;
   height: 4px;
-  background-color: var(--bar-on-foreground);
+  /* background-color: var(--bar-on-foreground); */
   border-radius: 9999px;
 }
 
