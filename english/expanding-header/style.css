@@ -58,9 +58,9 @@ a {
   border-radius: var(--topbar-corners);
 }
 
-.topbar.container {
-  display: var(--topbar-contains-hamburger-logo);
-  flex-direction: var(--children);
+.topb {
+  display: flex;
+  flex-direction: column;
 }
 
 /*
