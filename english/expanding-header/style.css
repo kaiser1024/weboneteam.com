@@ -37,6 +37,9 @@ a {
   --topbar-screentop-distance: 0px;
   --topbar-leftside-distance: 0px;
   --topbar-rightside-distance: 0px;
+  --topbar-margin: 5px;
+  --topbar-padding: 5px;
+  --
 }
 
 .topbar {
@@ -46,6 +49,8 @@ a {
   top: var(--topbar-screentop-distance);
   left: var(--topbar-leftside-distance);
   right: var(--topbar-rightside-distance);
+  margin: var(--topbar-margin); 
+  padding: var(--topbar-padding);
 }
 
 /*
