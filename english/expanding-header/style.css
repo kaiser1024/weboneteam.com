@@ -283,7 +283,8 @@ a:visited {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  background-color: var(--hamburger-bar-color); 
+  background-color: var(--hamburger-bar-color);
+  cursor: pointer;
 }
 
 
