@@ -262,3 +262,18 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
+
+/* hamburger to x 
+
+:root{
+  --bar-to-x-animation-timing: 200ms ease-in-out;
+  --hamburger-bar-color: white;
+}
+
+.hamburger-bars {
+  background-color: var(--hamburger-bar-color);
+}
+
+*/
+
+
