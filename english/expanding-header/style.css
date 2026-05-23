@@ -245,6 +245,7 @@ main.no-blur {
 
 h1 {
   color: black;
+  text-shadow: 0 4px 2px black /*horizontal vertical blur-radius color*/
 }
 
 a,
