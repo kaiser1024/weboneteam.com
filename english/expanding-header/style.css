@@ -64,7 +64,7 @@ a {
   display: var(--topbar-contains-hamburger-logo);
   flex-direction: var(--children);
   height: var(--flex-column-height);
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /*
