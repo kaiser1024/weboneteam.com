@@ -34,12 +34,6 @@ header .container {
   
 }
 
-.contact {
-  width: 100%;
-  overflow: hidden;
-  background-color: green;
-}
-
 .contact-form {
   height: 100vh;
   min-height: 700px;
@@ -116,4 +110,9 @@ header ul {
   .theme-toggle .fa-sun {
   display: inline;
 } 
-  
+
+.contact {
+  width: 100%;
+  overflow: hidden;
+  background-color: green;
+}
