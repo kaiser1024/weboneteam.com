@@ -6,7 +6,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  --main-hue: 208;
+  --main-color: hsl(var(--main-hue), 92%, 54%);
   --text-color: #000;
+  --nav-color: hsl(var(--main-hue), 17%, 79%);
 }
 
 a {
@@ -86,5 +89,31 @@ header ul {
 }
 
 .logo h2 span {
-  color: hsl(208, 92%, 54%);
+  color: var(--main-color);
 }
+
+.nav-link {
+  magin-left: 5.5rem;
+  padding: 0 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: hsl(var(--main-hue), 17%, 79%);
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--main-color);
+}
+
+.nav-link.theme-toggle {
+  cursor: pointer;
+}
+
+.theme-toggle .fa-moon {
+  display: none;
+}
+  
+  .theme-toggle .fa-sun {
+  display: inline;
+} 
+  
