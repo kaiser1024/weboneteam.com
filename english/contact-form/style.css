@@ -17,3 +17,9 @@ header .container {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.contact {
+  width: 100%;
+  overflow: hidden;
+  background-color: green;
+}
