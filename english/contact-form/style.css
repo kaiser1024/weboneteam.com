@@ -20,6 +20,7 @@ header .container {
   background-color: red;
   margin: 0 auto;
   padding: 0 1rem;
+  height: 65px;
 }
 
 .contact {
@@ -43,8 +44,15 @@ header .container {
 
 header ul {
   display: flex;
+  list-style: none;
 }
 
+logo {
+  display: flex;
+  aligh-items: center;
+  margin-right 3rem;
+  
+  
 .logo img {
   height: 35px;
   
