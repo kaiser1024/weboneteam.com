@@ -31,4 +31,8 @@ header .container {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
-  
+
+.contact .form-items > div {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
