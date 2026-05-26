@@ -83,3 +83,8 @@ header ul {
   color: var(--text-color);
   font-size: 1.55rem;
   margin-top: 2px;
+}
+
+.logo h2 span {
+  color: hsl(208, 92%, 54%);
+}
