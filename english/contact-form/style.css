@@ -23,3 +23,9 @@ header .container {
   overflow: hidden;
   background-color: green;
 }
+
+.contact-form {
+  height: 100vh;
+  min-height: 700px;
+}
+  
