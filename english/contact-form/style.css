@@ -8,9 +8,11 @@ body {
   font-family: "Poppins", sans-serif;
   --main-hue: 208;
   --main-color: hsl(var(--main-hue), 92%, 54%);
+  --main-color-hover: hsl(var(--main-hue), 77%, 48;)
   --text-color: #000;
   --nav-color: hsl(var(--main-hue), 17%, 79%);
- --bg-color: #fff; 
+  --bg-color: #fff; 
+  --light-text-color: #9ca7b6;
 }
 
 a {
@@ -22,6 +24,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 4;
 }
 
 header .container {
@@ -135,10 +138,41 @@ header ul {
   width: 100%;
   max-width: 80rem;
   margin: 0 auto;
-  background-color: khaki;
-  
+  padding: 65px 1.5rem 0;
+  display: repeat;
+  grid-template-columns: repeat (2, 1fr);
+  align-items: center;
+  position: relative;
+  z-index: 3;
 }
 
+.contact-heading h1 {
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 3.5rem;
+  line-height: 0.9;
+  whites-space: nowrap;
+  margin-bottom: 1.2;
+}
+
+.contact-heading h1 span {
+  color: var(--main-color);
+}
+
+.text {
+  color: var(--light-text-color);
+  line-height: 1.1;
+  font-size: 1.7rem;
+}
+
+.text a {
+  color: var(--main-color);
+  transition: 0.3s;
+}
+
+.text a:hover {
+  color: var(--main-color-hover);
+}
 
 
 
