@@ -14,7 +14,7 @@ body {
   --bg-color: #fff; 
   --light-text-color: #9ca7b6;
   --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%);
-    
+  --input-text: #8c9aaf;
 }
 
 a {
@@ -176,6 +176,10 @@ header ul {
   color: var(--main-color-hover);
 }
 
+form-wrapper {
+  max-width: 3.2rem;
+}
+  
 .contact-form {
   display: grid;
   margin-top: 2.55rem;
@@ -214,9 +218,42 @@ header ul {
   position: absolute;
   top: 50%;
   left: calc(1.35rem + 2px);
-  transform: translate(-50%);
+  transform: translateY(-50%);
   color: var(--light-text-color);
+  pointer-events: none;
 }
+
+.input-wrap .icon {
+  position: absolute;
+  right: calc(1.35rem + 2px);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--input-text);
+  font-size: 1.25rem;
+}
+
+text-area.contact-input {
+  resize: none:
+  width: 100%;
+  min-height: 150px;
+}
+
+text-area.contact-input ~ label {
+  top: 1.2rem;
+  transform: none;
+}
+
+text-area.contact-input ~ .icon {
+  top: 1.3rem;
+  transform: none;
+}
+
+  
+
+
+  
+  
 
 
   
