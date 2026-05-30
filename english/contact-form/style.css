@@ -174,5 +174,11 @@ header ul {
   color: var(--main-color-hover);
 }
 
+.contact-form {
+  display: grid;
+  margin-top: 2.55rem;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 1rem;
 
 
