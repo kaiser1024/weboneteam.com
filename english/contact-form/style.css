@@ -111,7 +111,7 @@ margin-right: 3rem;
 }
 
 .theme-toggle .fa-moon {
-/*  display: none; */
+  display: none;
 }
   
 .theme-toggle .fa-sun {
