@@ -76,7 +76,7 @@ margin-right: 3rem;
   height: 35px;
   grid-column: 1/2;
   grid-row: 1/2;
-/*  margin-right: 0.8rem; */
+  margin-right: 0.8rem;
 }  
 
 .logo img.logo-forDark {
