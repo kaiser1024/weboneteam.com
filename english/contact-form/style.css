@@ -107,7 +107,7 @@ margin-right: 3rem;
 }
 
 .nav-link.theme-toggle {
-/*  cursor: pointer; */
+  cursor: pointer;
 }
 
 .theme-toggle .fa-moon {
