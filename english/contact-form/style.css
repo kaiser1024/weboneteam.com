@@ -103,7 +103,7 @@ margin-right: 3rem;
 }
 
 .nav-link:hover {
-/*  color: var(--main-color); */
+  color: var(--main-color);
 }
 
 .nav-link.theme-toggle {
