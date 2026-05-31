@@ -56,7 +56,7 @@ header .container {
 }
 
 header ul {
-/*  display: flex; */
+  display: flex;
 /*  list-style: none; */
 /*  align-items: center; */
 }
@@ -74,7 +74,7 @@ header ul {
 }
     
 .logo img {
-/*  height: 35px; */
+  height: 35px;
 /*  grid-column: 1/2; */
 /*  grid-row: 1/2; */
 /*  margin-right: 0.8rem; */
