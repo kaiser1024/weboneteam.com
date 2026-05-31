@@ -32,8 +32,8 @@ header {
 }
 
 header .container {
- /* max-width: 82rem; */
- /* background-color: red; */
+  max-width: 82rem;
+  background-color: red;
  /* margin: 0 auto; */
  /* padding: 0 1rem; */
  /* height: 65px; */
