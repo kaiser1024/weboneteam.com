@@ -90,7 +90,7 @@ margin-right: 3rem;
 }
 
 .logo h2 span {
-/*  color: var(--main-color); */
+  color: var(--main-color);
 }
 
 .nav-link {
