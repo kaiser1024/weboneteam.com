@@ -125,11 +125,11 @@ margin-right: 3rem;
 }
 
 .contact .container {
-/*  height: 100vh; */
-/*  min-height: 700px; */
-/*  displaz: grid; */
-/*  grid-template-columns: 1fr; */
-/*  grid-template-rows: 1fr; */
+  height: 100vh;
+  min-height: 700px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 .contact .container > div {
