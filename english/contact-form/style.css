@@ -12,7 +12,7 @@ body {
   --main-color: hsl(var(--main-hue), 92%, 54%);
 /*  --main-color-hover: hsl(var(--main-hue), 77%, 48); */
   --text-color: #000;
-/*  --nav-color: hsl(var(--main-hue), 17%, 79%); */
+  --nav-color: hsl(var(--main-hue), 17%, 79%);
 /*  --bg-color: #fff; */
 /*  --light-text-color: #9ca7b6; */
 /*  --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%); */
@@ -94,11 +94,11 @@ margin-right: 3rem;
 }
 
 .nav-link {
-/*  magin-left: 5.5rem; */
-/*  padding: 0 1rem; */
-/*  font-weight: 600; */
-/*  font-size: 1rem; */
-/*  color: hsl(var(--main-hue), 17%, 79%); */
+  margin-left: 5.5rem;
+  padding: 0 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: hsl(var(--main-hue), 17%, 79%);
 /*  transition: 0.3s; */
 }
 
