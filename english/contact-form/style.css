@@ -28,14 +28,13 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: green;
 
 /*  z-index: 4; */
 }
 
 header .container {
   max-width: 82rem;
-  background-color: black;
+  background-color: red;
   margin: 0 auto;
  /* padding: 0 1rem; */
  /* height: 65px; */
