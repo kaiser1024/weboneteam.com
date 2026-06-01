@@ -210,6 +210,7 @@ form-wrapper {
   font-size: 0.95rem;
   border: 2px solid transparent;
   transition: 0.3rem;
+  box-shadow: 0 0 0 0px hsla(var(--main-hue), 92%, 54%, 0.169);
 }
 
 .contact-input:hover {
