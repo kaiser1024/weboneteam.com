@@ -296,7 +296,7 @@ text-area.contact-input ~ .icon {
   font-size: 1rem;
 }
 
-.btn.upload {
+.btn.upload input{
 display:none;
 }
 
