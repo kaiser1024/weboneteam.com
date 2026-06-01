@@ -241,8 +241,8 @@ text-area.contact-input {
 }
 
 text-area.contact-input ~ label {
-/*  top: 1.2rem; */
-/*  transform: none; */
+  top: 1.2rem;
+  transform: none;
 }
 
 text-area.contact-input ~ .icon {
