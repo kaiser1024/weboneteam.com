@@ -15,7 +15,7 @@ body {
   --nav-color: hsl(var(--main-hue), 17%, 79%);
   --bg-color: #fff;
   --light-text-color: #9ca7b6;
-  --input-bg: hsla(var(--main-hue), 50%, 50%, 6.5%;
+  --input-bg: hsla(var(--main-hue), 50%, 50%, 6.5%);
   --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%);
 /*  --input-text: #8c9aaf; */
 }
