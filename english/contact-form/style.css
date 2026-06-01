@@ -143,19 +143,19 @@ header ul {
   margin: 0 auto;
   background-color: khaki;
   padding: 65px 1.5rem 0;
-/*  display: repeat; */
-/*  grid-template-columns: repeat (2, 1fr); */
-/*  align-items: center; */
-/*  position: relative; */
-/*  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat (2, 1fr);
+  align-items: center;
+  position: relative;
+  z-index: 3;
 }
 
 .contact-heading h1 {
-/*  font-weight: 600; */
-/*  color: var(--text-color); */
-/*  font-size: 3.5rem; */
-/*  line-height: 0.9; */
-/*  whites-space: nowrap; */
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 3.5rem;
+  line-height: 0.9;
+  white-space: nowrap;
 /*  margin-bottom: 1.2; */
 }
 
