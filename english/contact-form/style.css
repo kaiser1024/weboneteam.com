@@ -14,7 +14,7 @@ body {
   --text-color: #000;
   --nav-color: hsl(var(--main-hue), 17%, 79%);
   --bg-color: #fff;
-/*  --light-text-color: #9ca7b6; */
+  --light-text-color: #9ca7b6;
 /*  --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%); */
 /*  --input-text: #8c9aaf; */
 }
@@ -168,12 +168,12 @@ header ul {
 }
 
 .text a {
-/*  color: var(--main-color); */
-/*  transition: 0.3s; */
+  color: var(--main-color);
+  transition: 0.3s;
 }
 
 .text a:hover {
-/*  color: var(--main-color-hover); */
+  color: var(--main-color-hover);
 }
 
 form-wrapper {
