@@ -178,7 +178,7 @@ header ul {
 }
 
 form-wrapper {
-/*  max-width: 3.2rem; */
+  max-width: 32rem;
 }
   
 .contact-form {
@@ -208,6 +208,7 @@ form-wrapper {
   color: var(--text-color);
   font-weight: 600;
   font-size: 0.95rem;
+  border: 2px solid transparent;
   transition: 0.3rem;
 }
 
