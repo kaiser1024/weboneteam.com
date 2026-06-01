@@ -139,8 +139,9 @@ header ul {
 
 .left {
   width: 100%;
-/*  max-width: 80rem; */
-/*  margin: 0 auto; */
+  max-width: 80rem;
+  margin: 0 auto;
+  background-color: khaki;
 /*  padding: 65px 1.5rem 0; */
 /*  display: repeat; */
 /*  grid-template-columns: repeat (2, 1fr); */
