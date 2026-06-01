@@ -261,10 +261,12 @@ text-area.contact-input ~ .icon {
 
 .input-wrap.focus label {
   color: var(--light-main-color);
+  transition: 0.25s;
 }
 
 .input-wrap.focus .icon {
   color: var(--light-main-color);
+  transition: 0.3s;
 }
 
 .input-wrap.not-empty label {
