@@ -13,7 +13,7 @@ body {
 /*  --main-color-hover: hsl(var(--main-hue), 77%, 48); */
   --text-color: #000;
   --nav-color: hsl(var(--main-hue), 17%, 79%);
-/*  --bg-color: #fff; */
+  --bg-color: #fff;
 /*  --light-text-color: #9ca7b6; */
 /*  --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%); */
 /*  --input-text: #8c9aaf; */
