@@ -61,9 +61,9 @@ header ul {
 }
 
 .logo {
-display: flex;
-align-items: center;
-margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
 }
   
 .logo .images {
@@ -138,7 +138,8 @@ margin-right: 3rem;
 }
 
 .left {
-/*  width: 100%; */
+  background-color: khaki;
+  /* width: 100%; */
 /*  max-width: 80rem; */
 /*  margin: 0 auto; */
 /*  padding: 65px 1.5rem 0; */
