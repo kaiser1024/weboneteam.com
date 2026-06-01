@@ -235,9 +235,9 @@ form-wrapper {
 }
 
 text-area.contact-input {
-/*  resize: none; */
-/*  width: 100%; */
-/*  min-height: 150px; */
+  resize: none; 
+  width: 100%;
+  min-height: 150px;
 }
 
 text-area.contact-input ~ label {
