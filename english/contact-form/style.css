@@ -266,6 +266,13 @@ text-area.contact-input ~ .icon {
 .input-wrap.focus .icon {
   color: var(--light-main-color);
 }
+
+.input-wrap.not-empty label {
+  font-size: 0.66rem;
+  top: 0.75rem;
+  transform: translateY:(0);
+}
+
   
   
 
