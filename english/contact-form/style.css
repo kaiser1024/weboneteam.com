@@ -227,9 +227,9 @@ form-wrapper {
 .input-wrap .icon {
   position: absolute;
   right: calc(1.35rem + 2px);
-/*  top: 50%; */
-/*  transform: translateY(-50%); */
-/*  pointer-events: none; */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; 
 /*  color: var(--input-text); */
 /*  font-size: 1.25rem; */
 }
