@@ -15,7 +15,8 @@ body {
   --nav-color: hsl(var(--main-hue), 17%, 79%);
   --bg-color: #fff;
   --light-text-color: #9ca7b6;
-/*  --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%); */
+  --input-bg: hsla(var(--main-hue), 50%, 50%, 6.5%;
+  --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%);
 /*  --input-text: #8c9aaf; */
 }
 
@@ -189,7 +190,7 @@ form-wrapper {
 }
 
 .input-wrap {
-/*  position: relative; */
+  position: relative;
 }
 
 .input-wrap.w-100 {
@@ -204,28 +205,28 @@ form-wrapper {
   outline: none;
   font-family: inherit;
   border-radius: 20px;
-/*  color: var(--text-color); */
-/*  font-weight: 600; */
-/*  font-size: 0.95rem; */
-/*  transition: 0.3rem; */
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: 0.3rem;
 }
 
 .contact-input:hover {
-/*  background-color: var(--input-bg-hover); */
+  background-color: var(--input-bg-hover);
 }
 
 .input-wrap label {
- /* position: absolute; */
- /* top: 50%; */
- /* left: calc(1.35rem + 2px); */
- /* transform: translateY(-50%); */
- /* color: var(--light-text-color); */
- /* pointer-events: none; */
+   position: absolute;
+   top: 50%;
+   left: calc(1.35rem + 2px);
+   transform: translateY(-50%);
+   color: var(--light-text-color);
+   pointer-events: none;
 }
 
 .input-wrap .icon {
-/*  position: absolute; */
-/*  right: calc(1.35rem + 2px); */
+  position: absolute;
+  right: calc(1.35rem + 2px);
 /*  top: 50%; */
 /*  transform: translateY(-50%); */
 /*  pointer-events: none; */
