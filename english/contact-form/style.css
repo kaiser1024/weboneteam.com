@@ -11,6 +11,7 @@ body {
   --main-hue: 208;
   --main-color: hsl(var(--main-hue), 92%, 54%);
   --main-color-hover: hsl(var(--main-hue), 77%, 48%);
+  --light-main-color: hsl(var(--main-hue), 91%, 55%);
   --text-color: #000;
   --nav-color: hsl(var(--main-hue), 17%, 79%);
   --bg-color: #fff;
@@ -252,7 +253,10 @@ text-area.contact-input ~ .icon {
   transform: none;
 }
 
-  
+.input-wrap.focus .contact-input {
+  background-color: var(--bg-color);
+  border: 2px solid var(--light-main-color);
+  box-shodow: 0 0 0 5px hsla(var(--main-hue), 91%, 55%, 0.11);
 
 
   
