@@ -298,7 +298,7 @@ textarea.contact-input ~ .icon {
   transition: 0.3;
 }
 
-.b  tn:hover {
+.btn:hover {
   background-color: var(--main-color-hover);
 }
 
