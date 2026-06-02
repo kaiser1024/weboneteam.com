@@ -38,11 +38,15 @@ body {
 }
 
 .dark .logo img.logo-forLight {
-  opacity: 0  ;
+  opacity: 0;
 }
 
 .dark #dashed-wave {
   opacity: 0.3;
+}
+
+.transition {
+  transition: 1s !important;
 }
 
 a {
