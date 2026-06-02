@@ -127,7 +127,7 @@ header ul {
   padding: 0 1rem;
   font-weight: 600;
   font-size: 1rem;
-  color: (var(--nav-color);
+  color: var(--nav-color);
   transition: 0.3s;
 }
 
@@ -337,7 +337,7 @@ select.contact-input {
   font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 .btn:hover {
