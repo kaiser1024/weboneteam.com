@@ -33,10 +33,17 @@ body {
   --text-color: #fff;
 }
 
-.dark img.logo-forDark {
+.dark .logo img.logo-forDark {
   opacity: 1;
 }
 
+.dark .logo img.logo-forLight {
+  opacity: 0  ;
+}
+
+.dark #dashed-wave {
+  opacity: 0.3;
+}
 
 a {
   text-decoration: none;
@@ -134,6 +141,14 @@ header ul {
   
 .theme-toggle .fa-sun {
   display: inline;
+} 
+
+.dark .theme-toggle .fa-moon {
+  display: inline;
+}
+  
+.dark .theme-toggle .fa-sun {
+  display: none;
 } 
 
 .contact {
