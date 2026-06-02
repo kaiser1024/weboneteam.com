@@ -19,10 +19,22 @@ body {
   --input-bg: hsla(var(--main-hue), 50%, 50%, 6.5%);
   --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%);
   --input-text: #8c9aaf;
+  --input-shadow: hsla(var(--main-hue), 92%, 58%, 0.169);
+
 }
 
 .dark {
   --bg-color: hsl(var(--main-hue), 30%, 16.5%);
+  --input-bg: hsla(var(--main-hue), 22%, 50%, 11%);
+  --input-bg-hover: hsla(var(--main-hue), 22%, 50%, 18.5%);
+  --light-text-color: hsl(var(--main-hue), 12%, 46%);
+  --input-text: hsl(var(--main-hue), 10%, 55%);
+  --input-shadow: hsla(var(--main-hue), 92%, 54%, 0.2);
+  --text-color: #fff;
+}
+
+.dark img.logo-forDark {
+  opacity: 1;
 }
 
 
@@ -104,7 +116,7 @@ header ul {
   padding: 0 1rem;
   font-weight: 600;
   font-size: 1rem;
-  color: hsl(var(--main-hue), 17%, 79%);
+  color: (var(--nav-color);
   transition: 0.3s;
 }
 
@@ -215,8 +227,8 @@ header ul {
   font-weight: 600;
   font-size: 0.95rem;
   border: 2px solid transparent;
-  transition: 0.3rem;
-  box-shadow: 0 0 0 0px hsla(var(--main-hue), 92%, 54%, 0.169);
+  box-shadow: 0 0 0 0px var(--input-shadow);
+  transition: 0.3s;
 }
 
 .contact-input:hover {
