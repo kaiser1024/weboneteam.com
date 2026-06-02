@@ -1,4 +1,9 @@
 const inputs = document.querySelectorAll(".contact-input");
+const toggleBtn = document.querySelector(".theme-toggle");
+
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
 
 inputs.forEach(ipt => {
   ipt.addEventListener("focus", () => {
