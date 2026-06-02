@@ -373,6 +373,22 @@ color: var(--light-text-color);
   height: 100%;
 }
 
+.dashed-wave {
+  position: absolute;
+  z-index: 3;
+  height: 130%;
+  bottom: 60%;
+  left: -28px;
+  transform: translateY(50%);
+}
+
+#dashed-wave {
+  fill: none;
+  stroke: var(--nav-color);
+  stroke-width: 1px;
+  stroke-dasharray: 6.5;
+  opacity: 0.8;
+}
 
   
   
