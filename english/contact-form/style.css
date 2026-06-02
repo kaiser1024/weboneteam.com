@@ -294,6 +294,8 @@ text-area.contact-input ~ .icon {
   font-family: inherit;
   font-weight: 500;
   font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3;
 }
 
 .btn.upload input{
