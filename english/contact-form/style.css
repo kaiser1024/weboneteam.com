@@ -357,11 +357,19 @@ color: var(--light-text-color);
   height: 100%;
   top: 0;
   left: 0;
-  background-color: green;
+  background-color: var(--bg-color);
+}
+
+.wave-wrap svg {
+  position: absolute;
+  height: calc(100% - 10px);
+  top: 50%;
+  transform: translateY(-50%);
+  left: calc(100% - 2px);
 }
 
 #wave {
-  fill: red;
+  fill: var(--bg-color);
   height: 100%;
 }
 
