@@ -275,6 +275,12 @@ textarea.contact-input ~ .icon {
   transform: translateY(0);
 }
 
+
+select.contact-input {
+  appearance: none;
+}
+
+
 .contact-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
