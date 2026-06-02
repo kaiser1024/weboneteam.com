@@ -345,8 +345,9 @@ color: var(--light-text-color);
   transform: translate(-50%, -50%);
 }
 
-
-  
+.wave-wrap {
+  position: absolute;
+}
 
 
   
