@@ -21,6 +21,11 @@ body {
   --input-text: #8c9aaf;
 }
 
+.dark {
+  --bg-color: hsl(var(--main-hue), 30%, 16.5%);
+}
+
+
 a {
   text-decoration: none;
 }
