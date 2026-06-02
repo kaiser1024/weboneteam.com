@@ -338,7 +338,10 @@ color: var(--light-text-color);
   grid-column: 2;
 
 .image-wrapper .img {
-  display: none;
+  position: absolute;
+  height: 130%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
