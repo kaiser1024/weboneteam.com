@@ -298,9 +298,27 @@ text-area.contact-input ~ .icon {
   transition: 0.3;
 }
 
-.btn.upload input{
+.butn:hover {
+  background-color: var(--main-color-hover);
+}
+
+.btn-upload {
+  position: relative;
+  background-color: var(--input-bg);
+}
+
+.btn.upload span {
+color: var(--light-text-color);
+}
+
+.butn.upload:hover {
+  background-color: var(--input-bg-hover);
+}
+
+.btn.upload input {
 display:none;
 }
+
 
   
 
