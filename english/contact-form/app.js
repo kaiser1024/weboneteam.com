@@ -6,8 +6,11 @@ const allElement = document.querySelectorAll("*");
 toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 
-  allElements.forEach(el => {
+  allElements.forEach((el) => {
     el.classList.add("transition");
+    setTimeout(() => {
+      el.classList.remove("transition");
+    }, 1000);
   })
 });
 
