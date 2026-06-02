@@ -607,6 +607,15 @@ color: var(--light-text-color);
     font-size: 1.9rem;
     line-height: 1;
   }
+
+  .logo img {
+    height: 25px;
+    margin-right: 0.7rem;
+  }
+
+  .logo h2 {
+    font-size: 1.15rem;
+  }
 }
 
   
