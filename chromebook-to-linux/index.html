@@ -28,9 +28,17 @@
     <ul><li>Chromebox has no UEFI (approximate equivalent of UEFI on stock Chrome: coreboot + Depthcarge)</li>
     <li>stock Chromebox has no legacy BIOS as per factory configuration</li></ul>
 <h2>Key questions</h2>
-    <h3>Can you replace coreboot + Deepthcharge with a real UEFI?</h3>
-      <p>Answer: Yes, it is possible to install EDK II (UEFI) as a coreboot payload</p>
 
+     <h3>Can you replace Chromebook firmware with UEFI?</h3>
+      <p>Answer: No, Chromebook as a piece of hardware only works with Chromebook firmware which is coreboot. UEFI cannot replace coreboot. </p>
+    <h3>Does coreboot allow booting Linux as the Operating System (OS)?</h3>
+      <p>Answer: No, coreboot cannot load Linux directly.</p>
+    <h3>Can coreboot be used as a starting point to load Linux?</h3>
+      <p>Answer: Yes, it is possible to install an additional layer on top of coreboot which is EDK II (UEFI) to be loaded as coreboot payload.</p>
+    <h3>What are the conditions to load Linux (or any Operating System)?</h3>
+      <p>Answer: hardware → EC powers system → CPU starts execution (reset vector) → low-level initialization runs → RAM becomes usable → devices become accessible → boot environment is established → OS loader is invoked → OS loads</p>
+
+    
 <aside><p>Sources:</p><ul><li>https://www.youtube.com/watch?v=rgSq8tWTnoo</li></ul></aside>
 </body>
     
