@@ -15,7 +15,15 @@
     <p>Sidenotes:</p>
         <ul><li>Does enabling stardard UEFI-based x86 behavior directly and simultaneously enable both Linux and Windows OS installation?</li>
             <li>Swapping Chromebook firmware (coreboot + Depthcharge) to UEFI is necessary but not sufficient to enable Linux: OS installation relies on understanding EFI executables + GTP as well as allowing the booting of EFI bootloaders </li></ul>
-<h2>Background</h2>
+    <p>Typical PC setups:</p>
+
+        <p>1. EC → UEFI → bootloader → Windows/Linux     (dominant PCs)</p>
+        <p>2. EC → BIOS → bootloader → Linux/Windows     (older PCs)</p>
+        <p>3. EC → Apple firmware → boot → macOS/Linux   (Macs)</p>
+        <p>4. EC → coreboot → Depthcharge → ChromeOS/Linux (Chromebooks)</p>
+        <p>5. EC → coreboot → UEFI → bootloader → Linux  (modified Chromebooks)</p>
+    
+    <h2>Background</h2>
     <p>Challenges in replacing ChromeOS with Linux on Chromebook</p>
     <ul><li>Chromebox has no UEFI (approximate equivalent of UEFI on stock Chrome: coreboot + Depthcarge)</li>
     <li>stock Chromebox has no legacy BIOS as per factory configuration</li></ul>
