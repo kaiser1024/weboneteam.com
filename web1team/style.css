@@ -35,10 +35,16 @@ body {
   font-weight: 500;
 }
 
+.dynamic-txts li span {
+  position: relative;
+}
+
 .dynamic-txts li span::after {
   content: "";
   position: absolute;
+  left: 0;
   height: 100%; 
   width: 100%; 
- border-left: 2px solid #FC6D6D
+  border-left: 2px solid #FC6D6D
+  animation: typing 1.5s steps(10) infinite;
 }
