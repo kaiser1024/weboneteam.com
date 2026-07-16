@@ -1,1 +1,23 @@
+https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv
+
+Restaurant website
+
+File structure:
+- index.html in root
+- robots.txt in root
+- folders: assets within assets css folder, img folder and js folder 
+- within css folder: styles.css
+- within js folder: main.js
+
+***
+styles.css contains the following code:
+
+/*=============VARIABLES CSS=============*/
+:root {
+--header-height: 3.5rem;
+
+/*==========Colors==========*/
+/*Color more HSL (hue, saturation, lightness)*/
+--first-color: hsl(30, 32%, 56%);
+--first-color-alt: hsl(30, 32%, 46%);
 
