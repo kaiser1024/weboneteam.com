@@ -1,4 +1,4 @@
-Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv
+Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv  6:00
 
 Fonts link: https://fonts.google.com/
 
@@ -174,7 +174,7 @@ styles.css contains the following code:
 --first-color: hsl(30, 32%, 56%);
 --first-color-alt: hsl(30, 32%, 46%);
 --white-color: hsl(0, 0%, 98%);
---white-color: hsl(0, 0%, 10%);
+--dark-color: hsl(0, 0%, 10%);
 --text-color: hsl(0, 0%, 20%);
 --body-color: hsl(0, 0%, 8%);
 --container-color: hsl(0, 0%, 100%);
@@ -236,9 +236,34 @@ button {
 }
 
 body {
-
+  backgound-color: var(--body-color);
+  color: var(--white-color;)
 }
 
+input,
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3, h4 {
+  font-weight: var(--font-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 
 
