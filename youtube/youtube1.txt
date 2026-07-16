@@ -331,10 +331,10 @@ img {
   .nav__menu {
     position: fixed;
     top:0;
-    right: 0;
+    right: -120%;
     background-color: var(--body-color);
     width: 80%;
-    height: 100%
+    height: 100%;
     box-shadow: -2px 0 16px shla (0, 0%, 0%, 0.3);
     padding: 7rem 0 2rem 3rem;
     z-index: var(--z-fixed);
@@ -387,6 +387,14 @@ img {
 main.js contains the following code:
 
 /*========== SHOW & CLOSE MENU ==========*/
+const navMenu = document.getElementById('nav-menu'),
+const navToggle = document.getElementById('nav-toggle'),
+const navClose = document.getElementById('nav-close')
+
+/*Show menu*/
+if(navToggle){
+  navToggle.addEventListener('click', () =>{
+  navMenu.classList.add('show-menu')
 
 /*========== REMOVE MOBILE MENU ==========*/
 
