@@ -59,7 +59,9 @@ index.html contains the following code:
   <body>
     <!--============ HEADER & NAV ============-->
     <header class="header" id="header">
-
+      <nav class="nav container">
+        <a href="#" class="nav__logo"></a>
+      </nav>
     </header>
 
     <!--============ MAIN ============-->
