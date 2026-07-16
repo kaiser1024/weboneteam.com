@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv
 
-Restaurant website
+Steakhouse website
 
 File structure:
 - index.html in root
@@ -9,8 +9,43 @@ File structure:
 - within css folder: styles.css
 - within js folder: main.js
 
-**************************************
-**************************************
+**************************************************************************
+**************************************************************************
+This is a text file called "Text_Responsive steakhouse website.txt
+
+*.nav__logo
+Steakhouse
+
+*.nav__link
+Home - About Us - Menu - Events - Contact- Reservation
+
+========== HOME SECTION ==========
+*.home__title
+A Premium <br>
+And Authentic <br>
+Steakhouse
+
+*.button
+Book a Table
+
+*home__images img - alt
+Great steak and fresh vegetables
+
+========== ABOUT SECTION ==========
+
+
+**************************************************************************
+**************************************************************************
+index.html contains the following code:
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover premium cuts, gourmet dishes...">
+    <meta name="robot" content="index, follow">
+
+***************************************************************************
+***************************************************************************
 styles.css contains the following code:
 
 /*=============VARIABLES CSS=============*/
@@ -33,8 +68,10 @@ styles.css contains the following code:
 --second-font: "Dancing-Script", cursive;
 --biggest-font-size: 2.5rem;
 
-**************************************
-**************************************
+
+
+***************************************************************************
+***************************************************************************
 main.js contains the following code:
 
 /*========== SHOW & CLOSE MENU ==========*/
