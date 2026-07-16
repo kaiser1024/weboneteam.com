@@ -126,13 +126,13 @@ index.html contains the following code:
           <div class="home__images">
             <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-2">
             <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-1">
-            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__pepper">
-            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__tomato">
-            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__rosemary-1">
-            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__onion">
-            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-2">
-            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-2">
-            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-2">
+            <image src="assets/image/home-pepper.png" alt="Grill steak and fresh vegetables" class="home__pepper">
+            <image src="assets/image/home-tomato.png" alt="Grill steak and fresh vegetables" class="home__tomato">
+            <image src="assets/image/home-rosemary-1.png" alt="Grill steak and fresh vegetables" class="home__rosemary-1">
+            <image src="assets/image/home-onion.png" alt="Grill steak and fresh vegetables" class="home__onion">
+            <image src="assets/image/home-spoon.png" alt="Grill steak and fresh vegetables" class="home__spoon">
+            <image src="assets/image/home-rosemary-2.png" alt="Grill steak and fresh vegetables" class="home__rosemary-2">
+            <image src="assets/image/home-fryingpan.png" alt="Grill steak and fresh vegetables" class="home__fryingpan">
 
           </div>
         </div>
