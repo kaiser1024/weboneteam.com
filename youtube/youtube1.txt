@@ -122,6 +122,26 @@ index.html contains the following code:
 
       </section>
 
+      <!--============ EVENTS ============-->
+      <section class="events section" id="events">
+
+      </section>
+
+      <!--============ INGREDIENTS ============-->
+      <section class="ingredients section" id="ingredients">
+
+      </section>
+
+      <!--============ CONTACT ============-->
+      <section class="contact section" id="contact">
+
+      </section>
+
+     <!--============ RESERVATION ============-->
+      <section class="reservation section" id="reservation">
+
+      </section>
+
 
 
 
