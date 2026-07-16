@@ -1,4 +1,8 @@
-https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv
+Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv
+
+Fonts link: https://fonts.google.com/
+
+Icons link: https://remixicon.com/ 
 
 Steakhouse website
 
@@ -141,6 +145,14 @@ index.html contains the following code:
       <section class="reservation section" id="reservation">
 
       </section>
+    </main>
+
+    <!--============ FOOTER ============-->
+    <footer class="footer"></footer>
+    <!--============ SCROLL UP ============-->
+    <!--============ SCROLLREVEAL - Insert link for animations ============-->
+    <script></script>
+
 
 
 
@@ -148,6 +160,10 @@ index.html contains the following code:
 ***************************************************************************
 ***************************************************************************
 styles.css contains the following code:
+
+/*=============GOOGLE FONTS - Insert link for typography=============*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 /*=============VARIABLES CSS=============*/
 :root {
