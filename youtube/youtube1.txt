@@ -113,6 +113,7 @@ index.html contains the following code:
     <main class="main">
       <!--============ HOME SECTION ============-->
       <section class="home section" id="home">
+        <div class="home__container container grid"></div>
 
       </section>
 
@@ -373,6 +374,9 @@ img {
 }
 
 /* Change header styles */
+.scroll-header {
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, 0.3);
+}
 
 /* Active link */
 
