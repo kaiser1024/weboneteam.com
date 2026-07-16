@@ -114,6 +114,19 @@ index.html contains the following code:
       <!--============ HOME SECTION ============-->
       <section class="home section" id="home">
         <div class="home__container container grid"></div>
+          <div class="home__data">
+            <h1 class="home__title">
+                A Premium <br>
+                And Authentic <br>
+                Steakhouse
+            </h1>
+
+            <a href"#reservation" class="home__button button">Book a Table</a>
+          </div>
+          <div class="home__images">
+            <image src="assets/image/home-salt.png" class="home__salt-2">
+          </div>
+        </div>
 
       </section>
 
