@@ -23,6 +23,13 @@ styles.css contains the following code:
 --white-color: hsl(0, 0%, 98%);
 --white-color: hsl(0, 0%, 10%);
 --text-color: hsl(0, 0%, 20%);
+--body-color: hsl(0, 0%, 8%);
+--container-color: hsl(0, 0%, 100%);
+
+/*==========Font & Typography==========*/
+
+
+
 
 
 
