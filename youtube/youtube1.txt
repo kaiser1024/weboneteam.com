@@ -1,4 +1,4 @@
-Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv  11:10
+Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv  17:29
 
 Fonts link: https://fonts.google.com/
 
@@ -477,7 +477,7 @@ home__imgages img {
 home__salt-2 {
   width: 150px; 
   left: -3.5rem;
-  bottom: 3rem;
+  bottom: 3.5rem;
 }
 
 /*========== BUTTON ==========*/
