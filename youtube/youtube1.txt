@@ -60,7 +60,35 @@ index.html contains the following code:
     <!--============ HEADER & NAV ============-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo"></a>
+        <a href="/index.html" class="nav__logo">Steakhouse</a>
+          <ul class="nav__list">
+            <li>
+              <a href="#" class="nav__link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav__link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav__link">Menu</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav__link">Events</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav__link">Reservation</a>
+            </li>
+          </ul>
+
+        <div class="nav__menu" "id="nav-menu">
+        </div>
       </nav>
     </header>
 
