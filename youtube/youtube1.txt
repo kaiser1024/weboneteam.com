@@ -124,7 +124,16 @@ index.html contains the following code:
             <a href"#reservation" class="home__button button">Book a Table</a>
           </div>
           <div class="home__images">
-            <image src="assets/image/home-salt.png" class="home__salt-2">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-2">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-1">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__pepper">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__tomato">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__rosemary-1">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__onion">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-2">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-2">
+            <image src="assets/image/home-salt.png" alt="Grill steak and fresh vegetables" class="home__salt-2">
+
           </div>
         </div>
 
