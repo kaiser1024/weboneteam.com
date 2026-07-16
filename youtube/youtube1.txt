@@ -45,11 +45,42 @@ index.html contains the following code:
     <meta name="robot" content="index, follow">
     <meta name="viewport" content="width=device-width", initial-scale="1.0"
 
-<!--============ FAVICON ============-->
+    <!--============ FAVICON ============-->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x
 
-<!--============ REMIXICONS - Insert link for icons ============-->
-    <linke rel="stylesheet" href=""
+    <!--============ REMIXICONS - Insert link for icons ============-->
+    <link rel="stylesheet" href=""
+
+    <!--============ CSS ============-->
+    <link rel="stylesheet" href="assets/css/styles.css"
+
+    <title>Gourmet Steakhouse Restaurant</title>
+  </head>
+  <body>
+    <!--============ HEADER & NAV ============-->
+    <header class="header" id="header">
+
+    </header>
+
+    <!--============ MAIN ============-->
+    <main class="main">
+      <!--============ HOME SECTION ============-->
+      <section class="home section" id="home">
+
+      </section>
+
+      <!--============ ABOUT ============-->
+      <section class="about section" id="about">
+
+      </section>
+ 
+      <!--============ MENU ============-->
+      <section class="menu section" id="menu">
+
+      </section>
+
+
+
 
 ***************************************************************************
 ***************************************************************************
