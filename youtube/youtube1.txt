@@ -169,7 +169,7 @@ styles.css contains the following code:
 :root {
 --header-height: 3.5rem;
 
-/*==========Colors==========*/
+/*========== Colors ==========*/
 /*Color more HSL (hue, saturation, lightness)*/
 --first-color: hsl(30, 32%, 56%);
 --first-color-alt: hsl(30, 32%, 46%);
@@ -179,11 +179,32 @@ styles.css contains the following code:
 --body-color: hsl(0, 0%, 8%);
 --container-color: hsl(0, 0%, 100%);
 
-/*==========Font & Typography==========*/
+/*========== Font & Typography ==========*/
 /*.5rem = 8px | 1rem = 16px*/
 --body-font: "Lora", serif;
 --second-font: "Dancing-Script", cursive;
 --biggest-font-size: 2.5rem;
+--bigger-font-size: 1.75rem;
+--h1-font-size: 1.5rem;
+--h2-font-size: 1.25rem;
+--h3-font-size: 1rem;
+--normal-font-size: .938rem;
+--small-font-size: .813rem;
+--smaller-font-size: .75rem;
+
+/*========== Font Weight ==========*/
+--font-regular: 400;
+--font-medium: 500;
+--font-semi-bold: 600;
+--font-bold: 700;
+
+
+/*========== z index ==========*/
+--z-tooltip: 10;
+--z-fixed: 100;
+
+
+
 
 
 
