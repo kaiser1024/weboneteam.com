@@ -348,6 +348,25 @@ img {
   row-gap: 2.5rem;
 }
 
+.nav__link {
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  transition: color 0.4s;
+}
+
+.nav__link:hover {
+  color: var(--first-color);
+}
+
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--white-color);
+  font-size: 1.5rem;,
+  cursor: pointer;
+}
+
 /* Show menu */
 
 /* Change header styles */
