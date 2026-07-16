@@ -9,7 +9,8 @@ File structure:
 - within css folder: styles.css
 - within js folder: main.js
 
-***
+**************************************
+**************************************
 styles.css contains the following code:
 
 /*=============VARIABLES CSS=============*/
@@ -27,6 +28,31 @@ styles.css contains the following code:
 --container-color: hsl(0, 0%, 100%);
 
 /*==========Font & Typography==========*/
+/*.5rem = 8px | 1rem = 16px*/
+--body-font: "Lora", serif;
+--second-font: "Dancing-Script", cursive;
+--biggest-font-size: 2.5rem;
+
+**************************************
+**************************************
+main.js contains the following code:
+
+/*========== SHOW & CLOSE MENU ==========*/
+
+/*========== REMOVE MOBILE MENU ==========*/
+
+/*========== CHANGE HEADER STYLES ==========*/
+
+/*========== SHOW SCROLL UP ==========*/
+
+/*========== SCROLL SECTIONS ACTIVE LINK ==========*/
+
+/*========== SCROLL REVEAL ANIMATION ==========*/
+
+
+
+
+
 
 
 
