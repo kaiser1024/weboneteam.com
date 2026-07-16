@@ -420,11 +420,13 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 /*========== CHANGE HEADER STYLES ==========*/
-const scrollHeader = () => {
+const scrollHeader = () =>{
   const header = document.getElementById('header')
   // Add the .scroll-header class if the botom scroll of the viewport if greater than 50
   this.scrollY >=50 ? .header.classList.add('scroll-header')
+                    : .header.classList.remove('scroll-header')
 }
+window.add EventListener('scroll', scrollHeader)
 
 /*========== SHOW SCROLL UP ==========*/
 
