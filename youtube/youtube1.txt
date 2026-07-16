@@ -20,4 +20,9 @@ styles.css contains the following code:
 /*Color more HSL (hue, saturation, lightness)*/
 --first-color: hsl(30, 32%, 56%);
 --first-color-alt: hsl(30, 32%, 46%);
+--white-color: hsl(0, 0%, 98%);
+--white-color: hsl(0, 0%, 10%);
+--text-color: hsl(0, 0%, 20%);
+
+
 
