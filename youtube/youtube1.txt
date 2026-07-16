@@ -265,8 +265,37 @@ img {
   height: auto;
 }
 
+/*========== REUSABLE CSS CLASSES ==========*/
+.container {
+  max-width: 1120;
+  margin-inline: 1rem;
+}
 
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
 
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title {
+  text-align: center;
+  font-size: var(--bigger-font-size);
+  margin-bottom: 1rem;
+}
+
+.section__subtitle {
+  display: block;
+  text-align: center;
+  font: var(--font-bold) var(--bigger-font-size) var(--second-font);
+  color: var(--first-color);
+}
+
+.main {
+  overflow: hidden;
+}
 
 ***************************************************************************
 ***************************************************************************
