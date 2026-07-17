@@ -53,7 +53,7 @@ index.html contains the following code:
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x
 
     <!--============ REMIXICONS - Insert link for icons ============-->
-    <link rel="stylesheet" href=""
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
 
     <!--============ CSS ============-->
     <link rel="stylesheet" href="assets/css/styles.css"
@@ -746,7 +746,31 @@ menu__flour-2 {
   max-width: initial;
   width: 150px;
   position: absolute;
+  top: -3rem;
+  right: -3rem;
 }
+
+.menu__tomato {
+  width: 50px;
+  position: absolute;
+  left: 0.5rem;
+  bottom: -1rem;
+}
+
+.menu__dish-4 {
+  width: 125px;
+  position: relative;
+  z-index: 5;
+}
+
+menu-flour-4 {
+  max-width: initial;
+  width: 150px;
+  position: absolute;
+  top: -1.5rem;
+  left: -2rem;
+}
+
 
 /*========== EVENTS SECTION ==========*/
 
