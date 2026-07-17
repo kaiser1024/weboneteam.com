@@ -1,4 +1,4 @@
-Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv  33:01
+Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv  41:32
 
 Fonts link: https://fonts.google.com/
 
@@ -264,16 +264,67 @@ index.html contains the following code:
       <!--============ INGREDIENTS ============-->
       <section class="ingredients section" id="ingredients">
         <div class="ingredients__container container grid">
+          <div class="events__data">
+            <span class="section__subtitle">Discover</span>
+            <h2 class="section__title">The Best Ingredients</span>
+            <p class="ingredients__description">
+              We take immense pride in carefully selecting our ingredients to ensure the flavors of our food are as delicious and authentic as possible. We achieve this level of excellence thanks to the attention to detail we dedicate to each dish, something difficult to find in other restaurants due to our superior quality.
+            </p>
+          </div>
+          <div class="ingredients__images">
+            <img src="assets/img/ingredients-8.png" alt="Natural ingredients for gourmet recipes" class"ingredients__image-8">
+            <img src="assets/img/ingredients-7.png" alt="Natural ingredients for gourmet recipes" class"ingredients__image-7">
+            <img src="assets/img/ingredients-6.png" alt="Natural ingredients for gourmet recipes" class"ingredients__image-6">
+            <img src="assets/img/ingredients-5.png" alt="Natural ingredients for gourmet recipes" class"ingredients__image-5">
+            <img src="assets/img/ingredients-4.png" alt="Natural ingredients for gourmet recipes" class"ingredients__image-4">
+            <img src="assets/img/ingredients-3.png" alt="Natural ingredients for gourmet recipes" class"ingredients__image-3">
+            <img src="assets/img/ingredients-2.png" alt="Natural ingredients for gourmet recipes" class"ingredients__image-2">
+            <img src="assets/img/ingredients-1.png" alt="Natural ingredients for gourmet recipes" class"ingredients__image-1">
+
+          </div>
 
         </div>
       </section>
 
       <!--============ CONTACT ============-->
       <section class="contact section" id="contact">
+        <span class="section__subtitle">Order</span>
+        <h2 class="section__title>Contact Us</h2>
+
         <div class="contact__container container grid">
+          <!-- Insert your location into Google Maps (https://www.google.com/maps) -->
+          <!-- Click Share -> Embed map -> Copy HTML -->
+          <div class="contact__map>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44180.52394803416!2d6.143039000000006!3d46.20483005000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c650693d0e2eb%3A0xa0b695357b0bbc39!2sGenf!5e0!3m2!1sde!2sch!4v1784283861617!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          <div class="contact__content">
+            <div class="contact__info">
+              <i class="ri-chat-1-line contact__icon"></i>
+              <h3 class="contact__title">Write to us</h3>
+              <ul class="contact__social">
 
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank" class="contact__link">
+                    <i class="ri-facebook-circle-line"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/" target="_blank" class="contact__link">
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" class="contact__link">
+                    <i class="ri-whatsapp-line"></i>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
         </div>
-
       </section>
 
      <!--============ RESERVATION ============-->
@@ -856,7 +907,69 @@ menu-flour-4 {
 }
 
 /*========== INGREDIENTS SECTION ==========*/
+.ingredients__container {
+  row-gap: 5.5rem;
+}
 
+.ingredients__description {
+  text-align: center; 
+}
+
+.ingredients__images {
+  position: relative;
+  justify-self: center;
+}
+
+.ingredients__images img {
+  position: absolute;
+}
+
+.ingredients__images .ingredients__img-1 {
+  position: relative;
+  width: 110px;
+}
+
+.ingredients__img-2 {
+  width: 45px;
+  left: -3.5rem;
+  bottom: 0;
+}
+
+.ingredients__img-3 {
+  width: 38px;
+  right: -3rem;
+  bottom: 0;
+}
+
+.ingredients__img-4 {
+  width: 32px;
+  left: -6rem;
+  top: 2.5rem;
+}
+
+.ingredients__img-5 {
+  width: 55px;
+  left: -6.5rem;
+  bottom: 0;
+}
+
+.ingredients__img-6 {
+  width: 45px;
+  right: -3.5rem;
+  top: 0.5rem;
+}
+
+.ingredients__img-7 {
+  width: 45px;
+  right: -6.5rem;
+  top: 3.5rem;
+}
+
+.ingredients__img-8 {
+  width: 60px;
+  right: -7.5rem;
+  bottom: 0;
+}
 
 /*========== CONTACT SECTION ==========*/
 
