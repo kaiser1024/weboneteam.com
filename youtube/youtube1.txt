@@ -214,6 +214,19 @@ index.html contains the following code:
                </div>
             </article>
 
+            <article class=menu__card">
+               <div class="menu__images">
+                 <img scr="assets/img/menu-dish-4.png" alt="Menu Specialty" class="menu__dish-4">
+                 <img scr="assets/img/menu-flour.png" alt="" class="menu__flour-4">
+               </div>
+
+               <div class="menu__info">
+                 <h3 class="menu__name">Dessert</h3>
+                 <p class="menu__summary">End your culinary experience with a cake to cleanse your palate.</p>
+               </div>
+            </article>
+
+
           </div>
         </div>
 
@@ -636,6 +649,26 @@ home__salt-2 {
   bottom: -2.5rem;
 }
 
+/*========== MENU SECTION ==========*/
+.menu__container {
+  row-gap: 4rem;
+}
+
+/*========== EVENTS SECTION ==========*/
+
+
+/*========== INGREDIENTS SECTION ==========*/
+
+
+/*========== CONTACT SECTION ==========*/
+
+
+/*========== RESERVATION SECTION ==========*/
+
+
+/*========== FOOTER  ==========*/
+
+/*========== SCROLL BAR  ==========*/
 
 
 ***************************************************************************
