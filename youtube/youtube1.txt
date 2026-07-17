@@ -1,4 +1,4 @@
-Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv  19:08
+Tutorial Link: https://www.youtube.com/watch?v=huxqD8JSuaw&list=PL07efmqYWHZ_cxA1GvuXQMA-VYk8dhuiv  24:51
 
 Fonts link: https://fonts.google.com/
 
@@ -162,6 +162,46 @@ index.html contains the following code:
  
       <!--============ MENU ============-->
       <section class="menu section" id="menu">
+        <div class="menu__container container grid">
+          <div class="menu__header">
+            <div>
+              <span class="section__subtitle">Discover</span>
+              <h2 class="section__title">Our Menu</span>
+            </div>
+            <p class="menu__description">
+              Few things compare to the pleasure of a good steak and fries, simply cooked with care and attention. Rest assured our chefs treat out meat with the respect it deserves for the best quality. The open kitchen in many of our steakhouses is proof of this.
+            </p>
+          </div>
+
+          <div class="menu__content">
+
+            <article class=menu__card">
+               <div class="menu__images">
+                 <img scr="assets/img/menu-dish-1.png" alt="Menu Specialty" class="menu__dish-1">
+                 <img scr="assets/img/menu-rosemary.png" alt="" class="menu__rosemary">
+                 <img scr="assets/img/menu-flour.png" alt="" class="menu__flour-1">
+               </div>
+
+               <div class="menu__info">
+                 <h3 class="menu__name">Bruschetta</h3>
+                 <p class="menu__summary">Start with our fresh baked bread with an egg and basil on top</p>
+               </div>
+            </article>
+
+            <article class=menu__card">
+               <div class="menu__images">
+                 <img scr="assets/img/menu-dish-1.png" alt="Menu Specialty" class="menu__dish-1">
+                 <img scr="assets/img/menu-rosemary.png" alt="" class="menu__rosemary">
+                 <img scr="assets/img/menu-flour.png" alt="" class="menu__flour-1">
+               </div>
+               <div class="menu__info">
+                 <h3 class="menu__name"></h3>
+                 <p class="menu__summary"></p>
+               </div>
+            </article>
+
+          </div>
+        </div>
 
       </section>
 
